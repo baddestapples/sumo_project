@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 09/25/20 18:24:01 by Eclipse SUMO netedit Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\anike\Desktop\Education\George%20Mason%20University\Sem%204-Fall%20-%202020\CS%20695%20-%20Connected%20Autonomous%20Vehicles\Projects\1st%20mini%20project\braddock.sumo\braddock.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\anike\Desktop\Education\George%20Mason%20University\Sem%204-Fall%20-%202020\CS%20695%20-%20Connected%20Autonomous%20Vehicles\Projects\1st%20mini%20project\braddock.sumo\braddock.net.xml"/>
+        <plain-output-prefix value=""/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <route-files value="C:\Users\anike\Desktop\Education\George%20Mason%20University\Sem%204-Fall%20-%202020\CS%20695%20-%20Connected%20Autonomous%20Vehicles\Projects\1st%20mini%20project\braddock.sumo\braddock.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route edges="171719521#0 171719521#2 171719498#0 171719498#1 171719506#0 171719506#1 171719506#2 171719506#3 590855742#0 590855742#1 590855742#2 590855742#3 590855738#0 590855738#1 590855738#2" color="yellow" id="route_0"/>
+    <route edges="590855737#0 590855737#1 590855737#2 590855741#0 590855741#1 590855741#2 590855741#3 590855741#4 144267617#0 144267617#1 144267617#2 144267617#3 144267617#4 171719519#1 171719519#2 171719519#3 171719519#4 171719519#5 171719519#6 171719502#0" color="yellow" id="route_1"/>
+    <vehicle id="vehicle_1" depart="0.00" route="route_1"/>
+    <vehicle id="vehicle_3" depart="0.00" route="route_0"/>
+    <vehicle id="vehicle_0" depart="15.00" route="route_1"/>
+    <vehicle id="vehicle_2" depart="30.00" route="route_0"/>
+</routes>
