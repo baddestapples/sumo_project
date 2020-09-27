@@ -6,8 +6,8 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="C:\Users\anike\Desktop\Education\George%20Mason%20University\Sem%204-Fall%20-%202020\CS%20695%20-%20Connected%20Autonomous%20Vehicles\Projects\1st%20mini%20project\braddock.sumo\braddock.net.xml"/>
-        <route-files value="C:\Users\anike\Desktop\Education\George%20Mason%20University\Sem%204-Fall%20-%202020\CS%20695%20-%20Connected%20Autonomous%20Vehicles\Projects\1st%20mini%20project\braddock.sumo\braddock.rou.xml"/>
+        <net-file value=".\braddock.net.xml"/>
+        <route-files value=".\braddock.rou.xml"/>
     </input>
 
 </configuration>
