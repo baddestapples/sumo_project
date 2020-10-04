@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 10/02/20 20:33:34 by Eclipse SUMO netedit Version 1.6.0
+<!-- generated on 10/04/20 15:39:25 by Eclipse SUMO netedit Version 1.6.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="C:\Users\Jon\OneDrive\Documents\Project1SUMO\braddock.net.xml2.net.xml"/>
+        <sumo-net-file value="C:\Users\Jon\OneDrive\Documents\Project1SUMO\.\braddock.net.xml"/>
     </input>
 
     <output>
-        <output-file value="C:\Users\Jon\OneDrive\Documents\Project1SUMO\braddock.net.xml"/>
+        <output-file value="C:\Users\Jon\OneDrive\Documents\Project1SUMO\.\braddock.net.xml"/>
     </output>
 
     <processing>
@@ -37,20 +37,20 @@
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
-    <tlLogic id="cluster_1445912501_1446759518_63641183_660058509" type="actuated" programID="am_rush" offset="0">
-        <phase duration="16.11" state="grrrgrrGGgrrrgrrGG"/>
+    <tlLogic id="cluster_1445912501_1446759518_63641183_660058509" type="actuated" programID="0" offset="0">
+        <phase duration="9.11" state="grrrgrrGGgrrrgrrGG"/>
         <phase duration="3.57" state="grrrgrrGGgrrrgrrYY"/>
         <phase duration="0.73" state="grrrgrrYYgrrrgrrYY"/>
         <phase duration="2.70" state="grrrgrrYYgrrrgrrrr"/>
         <phase duration="0.87" state="grrrgGGYYgrrrgrrrr"/>
         <phase duration="2.70" state="grrrgGGgggrrrgrrrr"/>
-        <phase duration="85" state="grrrgGGgggrrrgGGgg"/>
+        <phase duration="78" state="grrrgGGgggrrrgGGgg"/>
         <phase duration="4.30" state="grrrgyyyygrrrgyyyy"/>
         <phase duration="2.70" state="grrrgrrrrgrrrgrrrr"/>
-        <phase duration="41.16" state="grrrgrrrrgGGGgrrrr"/>
+        <phase duration="33.36" state="grrrgrrrrgGGGgrrrr"/>
         <phase duration="4.40" state="grrrgrrrrgGyygrrrr"/>
         <phase duration="3.40" state="grrrgrrrrgGgggrrrr"/>
-        <phase duration="24.16" state="gGgrgrrrrgGgggrrrr"/>
+        <phase duration="16.36" state="gGgrgrrrrgGgggrrrr"/>
         <phase duration="4.40" state="gyyrgrrrrgyyygrrrr"/>
         <phase duration="3.40" state="grrrgrrrrgrrrgrrrr"/>
     </tlLogic>
