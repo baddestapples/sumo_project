@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 10/04/20 08:51:05 by Eclipse SUMO netedit Version 1.7.0
+<!-- generated on 10/04/20 09:15:14 by Eclipse SUMO netedit Version 1.7.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -40,11 +40,26 @@
 </configuration>
 -->
 
-<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-    <route edges="171719521#0 171719521#2 171719498#0 171719498#1 171719506#0 171719506#1 171719506#2 171719506#3 590855742#0 590855742#1 590855742#2 590855742#3 590855742#3.305 590855738#0 590855738#1 590855738#2" color="yellow" id="route_0"/>
-    <route edges="590855737#0 590855737#1 590855737#2 590855737#2.97 590855741#0 590855741#1 590855741#2 590855741#3 590855741#4 144267617#0 144267617#1 144267617#2 144267617#3 144267617#4 171719519#1 171719519#2 171719519#3 171719519#4 171719519#5 171719519#6 171719502#0" color="yellow" id="route_1"/>
-    <vehicle id="vehicle_1" depart="0.00" route="route_1"/>
-    <vehicle id="vehicle_3" depart="0.00" route="route_0"/>
-    <vehicle id="vehicle_0" depart="15.00" route="route_1"/>
-    <vehicle id="vehicle_2" depart="30.00" route="route_0"/>
-</routes>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="guinea_rd" type="static" programID="0" offset="0">
+        <phase duration="18" state="grrrggrrrGGggrrrggrrGG"/>
+        <phase duration="3.80" state="grrrggrrrYYggrrrggrrGG"/>
+        <phase duration="3.90" state="grrrggrrrrrggrrrggrrGG"/>
+        <phase duration="3.30" state="grrrggrrrrrggrrrggGGGG"/>
+        <phase duration="3.80" state="grrrggrrrrrggrrrggGGYg"/>
+        <phase duration="3.50" state="grrrggrrrrrggrrrggGGrg"/>
+        <phase duration="90" state="grrrgGrGGrrggrrrgGGGrg"/>
+        <phase duration="4.60" state="grrrggryyrrggrrrggyyrg"/>
+        <phase duration="1" state="grrrggrrrrrggrrrggrrrg"/>
+        <phase duration="19" state="grGGGgrrrrrggrrGggrrrg"/>
+        <phase duration="3.50" state="grYYggrrrrrggrrGggrrrg"/>
+        <phase duration="2.50" state="grrrggrrrrrggrrGggrrrg"/>
+        <phase duration="0.70" state="grrrggrrrrrggrrYggrrrg"/>
+        <phase duration="2.30" state="grrrggrrrrrgGGGYGgrrrg"/>
+        <phase duration="2.90" state="grrrggrrrrrgGGGrGgrrrg"/>
+        <phase duration="46" state="gGrrggrrrrrgGGGrggrrrg"/>
+        <phase duration="0.80" state="gYrrggrrrrrgGGGrggrrrg"/>
+        <phase duration="3.70" state="gYrrggrrrrrgYYYrggrrrg"/>
+        <phase duration="2" state="grrrggrrrrrgrrrrggrrrg"/>
+    </tlLogic>
+</additional>
