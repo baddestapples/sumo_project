@@ -52,7 +52,7 @@
     </tlLogic>
 	<WAUT startProg="am" refTime="0" id="twinbrookWaut">
 		<wautSwitch to="ampm" time="10800"></wautSwitch>
-		<wautSwitch to="pm" time="21600"></wautSwitch>
+		<wautSwitch to="pm" time="32400"></wautSwitch>
 	</WAUT>
 	<wautJunction junctionID="cluster_1445912501_1446759518_63641183_660058509" wautID="twinbrookWaut"></wautJunction>
 </additional>
