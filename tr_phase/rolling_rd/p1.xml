@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+	<!-- just reduced 64.5 to 44.5 in 4th phase-->
+    <tlLogic id="cluster_1317288004_1709929511_1709929514_63558180_660058461" type="static" programID="170am" offset="0">
+        <phase duration="21.50" state="GGGgrrgrr"/>
+        <phase duration="5.20" state="GGygrrgrr"/>
+        <phase duration="3.30" state="GGrgrrgrr"/>
+        <phase duration="44.50" state="GGrgrrgGG"/>
+        <phase duration="5.20" state="yyrgrrgyy"/>
+        <phase duration="3.30" state="rrrgrrgrr"/>
+        <phase duration="38.30" state="rrrgGGGrr"/>
+        <phase duration="3.80" state="rrrgyygrr"/>
+        <phase duration="4.90" state="rrrgrrgrr"/>
+    </tlLogic>
+</additional>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+	    <tlLogic id="cluster_1446759509_63641116_660058498" type="static" programID="190ampm" offset="0">
+        <phase duration="57.80" state="rrrrrGGG"/>
+        <phase duration="4.60"  state="rrrrrGGy"/>
+        <phase duration="2.60"  state="rrrrrGGr"/>
+        <phase duration="82.80" state="rrrGGGGr"/>
+        <phase duration="4.60"  state="rrryyyyr"/>
+        <phase duration="2.60"  state="rrrrrrrr"/>
+        <phase duration="28.40" state="rrGrrrrG"/>
+        <phase duration="3.10"  state="rryrrrry"/>
+        <phase duration="3.50"  state="rrrrrrrr"/>
+    </tlLogic>
+	
+	<tlLogic id="cluster_1446759509_63641116_660058498" type="static" programID="150pm" offset="0">
+        <phase duration="21.80" state="rrrrrGGG"/>
+        <phase duration="4.60"  state="rrrrrGGy"/>
+        <phase duration="2.60"  state="rrrrrGGr"/>
+        <phase duration="76.80" state="rrrGGGGr"/>
+        <phase duration="4.60"  state="rrryyyyr"/>
+        <phase duration="2.60"  state="rrrrrrrr"/>
+        <phase duration="30.4" state="rrGrrrrG"/>
+        <phase duration="3.10"  state="rryrrrry"/>
+        <phase duration="3.50"  state="rrrrrrrr"/>
+    </tlLogic>
+	
+	<tlLogic id="cluster_1446759509_63641116_660058498" type="static" programID="170am" offset="0">
+        <phase duration="50.96" state="rrrrrGGG"/>
+        <phase duration="4.60"  state="rrrrrGGy"/>
+        <phase duration="2.60"  state="rrrrrGGr"/>
+        <phase duration="73" state="rrrGGGGr"/>
+        <phase duration="4.60"  state="rrryyyyr"/>
+        <phase duration="2.60"  state="rrrrrrrr"/>
+        <phase duration="25.04" state="rrGrrrrG"/>
+        <phase duration="3.10"  state="rryrrrry"/>
+        <phase duration="3.50"  state="rrrrrrrr"/>
+    </tlLogic>
+	<WAUT startProg="170am" refTime="0" id="olleyWaut">
+		<wautSwitch to="190ampm" time="10800"></wautSwitch>
+		<wautSwitch to="150pm" time="32400"></wautSwitch>
+	</WAUT>
+	<wautJunction junctionID="cluster_1446759509_63641116_660058498" wautID="olleyWaut"></wautJunction>	
+</additional>
