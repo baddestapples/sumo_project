@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 10/04/20 09:15:14 by Eclipse SUMO netedit Version 1.7.0
+<!-- generated on 10/05/20 01:05:59 by Eclipse SUMO netedit Version 1.7.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -42,24 +42,24 @@
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <tlLogic id="guinea_rd" type="static" programID="0" offset="0">
-        <phase duration="18" state="grrrggrrrGGggrrrggrrGG"/>
-        <phase duration="3.80" state="grrrggrrrYYggrrrggrrGG"/>
-        <phase duration="3.90" state="grrrggrrrrrggrrrggrrGG"/>
-        <phase duration="3.30" state="grrrggrrrrrggrrrggGGGG"/>
-        <phase duration="3.80" state="grrrggrrrrrggrrrggGGYg"/>
-        <phase duration="3.50" state="grrrggrrrrrggrrrggGGrg"/>
-        <phase duration="90" state="grrrgGrGGrrggrrrgGGGrg"/>
-        <phase duration="4.60" state="grrrggryyrrggrrrggyyrg"/>
-        <phase duration="1" state="grrrggrrrrrggrrrggrrrg"/>
-        <phase duration="19" state="grGGGgrrrrrggrrGggrrrg"/>
-        <phase duration="3.50" state="grYYggrrrrrggrrGggrrrg"/>
-        <phase duration="2.50" state="grrrggrrrrrggrrGggrrrg"/>
-        <phase duration="0.70" state="grrrggrrrrrggrrYggrrrg"/>
-        <phase duration="2.30" state="grrrggrrrrrgGGGYGgrrrg"/>
-        <phase duration="2.90" state="grrrggrrrrrgGGGrGgrrrg"/>
-        <phase duration="46" state="gGrrggrrrrrgGGGrggrrrg"/>
+        <phase duration="8.45" state="grrrggrrrGGgGrrrggrrrg"/>
+        <phase duration="3.80" state="grrrggrrrYYgGrrrggrrrg"/>
+        <phase duration="3.90" state="grrrggrrrrrggrrrggrrrg"/>
+        <phase duration="2.54" state="grrrggrrrrrgGrrrggGGrg"/>
+        <phase duration="3.80" state="grrrggrrrrrgYrrrggGGrg"/>
+        <phase duration="3.50" state="grrrggrrrrrgrrrrggGGrg"/>
+        <phase duration="74.98" state="grrrggrGGrrgrrrrggGGrg"/>
+        <phase duration="4.60" state="grrrggrYYrrgrrrrggYYrg"/>
+        <phase duration="1" state="grrrggrrrrrgrrrrggrrrg"/>
+        <phase duration="17" state="GrGGggrrrrrgrrrGGgrrrg"/>
+        <phase duration="3.50" state="grYYggrrrrrgrrrGGgrrrg"/>
+        <phase duration="1.87" state="grrrggrrrrrgrrrGGgrrrg"/>
+        <phase duration="1.33" state="grrrggrrrrrgrrrYggrrrg"/>
+        <phase duration="1.67" state="grrrggrrrrrgGGGYggrrrg"/>
+        <phase duration="2.90" state="grrrggrrrrrgGGGrggrrrg"/>
+        <phase duration="41.16" state="gGrrggrrrrrgGGGrggrrrg"/>
         <phase duration="0.80" state="gYrrggrrrrrgGGGrggrrrg"/>
-        <phase duration="3.70" state="gYrrggrrrrrgYYYrggrrrg"/>
-        <phase duration="2" state="grrrggrrrrrgrrrrggrrrg"/>
+        <phase duration="3.70" state="gYrrggrrrrrggYYrggrrrg"/>
+        <phase duration="2" state="grrrggrrrrrggrrrggrrrg"/>
     </tlLogic>
 </additional>
