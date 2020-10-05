@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 10/04/20 09:09:40 by Eclipse SUMO netedit Version 1.7.0
+<!-- generated on 10/05/20 01:49:31 by Eclipse SUMO netedit Version 1.7.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -13829,25 +13829,67 @@
         <phase duration="2.60"  state="grrgrrrrrrr"/>
     </tlLogic>
     <tlLogic id="guinea_rd" type="static" programID="0" offset="0">
-        <phase duration="18" state="grrrggrrrGGggrrrggrrGG"/>
-        <phase duration="3.80"  state="grrrggrrrYYggrrrggrrGG"/>
-        <phase duration="3.90"  state="grrrggrrrrrggrrrggrrGG"/>
-        <phase duration="3.30"  state="grrrggrrrrrggrrrggGGGG"/>
-        <phase duration="3.80"  state="grrrggrrrrrggrrrggGGYg"/>
-        <phase duration="3.50"  state="grrrggrrrrrggrrrggGGrg"/>
-        <phase duration="90" state="grrrgGrGGrrggrrrgGGGrg"/>
-        <phase duration="4.60"  state="grrrggryyrrggrrrggyyrg"/>
-        <phase duration="1"  state="grrrggrrrrrggrrrggrrrg"/>
-        <phase duration="19" state="grGGGgrrrrrggrrGggrrrg"/>
-        <phase duration="3.50"  state="grYYggrrrrrggrrGggrrrg"/>
-        <phase duration="2.50"  state="grrrggrrrrrggrrGggrrrg"/>
-        <phase duration="0.70"  state="grrrggrrrrrggrrYggrrrg"/>
-        <phase duration="2.30"  state="grrrggrrrrrgGGGYGgrrrg"/>
-        <phase duration="2.90"  state="grrrggrrrrrgGGGrGgrrrg"/>
-        <phase duration="46" state="gGrrggrrrrrgGGGrggrrrg"/>
+        <phase duration="8.45"  state="grrrggrrrGGgGrrrggrrrg"/>
+        <phase duration="3.80"  state="grrrggrrrYYgGrrrggrrrg"/>
+        <phase duration="3.90"  state="grrrggrrrrrggrrrggrrrg"/>
+        <phase duration="2.54"  state="grrrggrrrrrgGrrrggGGrg"/>
+        <phase duration="3.80"  state="grrrggrrrrrgYrrrggGGrg"/>
+        <phase duration="3.50"  state="grrrggrrrrrgrrrrggGGrg"/>
+        <phase duration="74.98" state="grrrggrGGrrgrrrrggGGrg"/>
+        <phase duration="4.60"  state="grrrggrYYrrgrrrrggYYrg"/>
+        <phase duration="1"  state="grrrggrrrrrgrrrrggrrrg"/>
+        <phase duration="17" state="GrGGggrrrrrgrrrGGgrrrg"/>
+        <phase duration="3.50"  state="grYYggrrrrrgrrrGGgrrrg"/>
+        <phase duration="1.87"  state="grrrggrrrrrgrrrGGgrrrg"/>
+        <phase duration="1.33"  state="grrrggrrrrrgrrrYggrrrg"/>
+        <phase duration="1.67"  state="grrrggrrrrrgGGGYggrrrg"/>
+        <phase duration="2.90"  state="grrrggrrrrrgGGGrggrrrg"/>
+        <phase duration="41.16" state="gGrrggrrrrrgGGGrggrrrg"/>
         <phase duration="0.80"  state="gYrrggrrrrrgGGGrggrrrg"/>
-        <phase duration="3.70"  state="gYrrggrrrrrgYYYrggrrrg"/>
-        <phase duration="2"  state="grrrggrrrrrgrrrrggrrrg"/>
+        <phase duration="3.70"  state="gYrrggrrrrrggYYrggrrrg"/>
+        <phase duration="2"  state="grrrggrrrrrggrrrggrrrg"/>
+    </tlLogic>
+    <tlLogic id="guinea_rd" type="static" programID="1" offset="0">
+        <phase duration="13.70" state="grrrggrrrGGggrrrggrrGG"/>
+        <phase duration="2.60"  state="grrrggrrrGGgGrrrggrrYg"/>
+        <phase duration="1.20"  state="grrrggrrrYYggrrrggrrYg"/>
+        <phase duration="2.60"  state="grrrggrrrYYggrrrggrrrg"/>
+        <phase duration="0.90"  state="grrrggrrrrrggrrrgGrrrg"/>
+        <phase duration="3"  state="grrrgGrGGrrggrrrgGrrrg"/>
+        <phase duration="75.40" state="grrrgGrGGrrggrrrgGGGrg"/>
+        <phase duration="4.60"  state="grrrggrYYrrggrrrggYYrg"/>
+        <phase duration="1"  state="grrrggrrrrrggrrrggrrrg"/>
+        <phase duration="20" state="grGGggrrrrrggrrGggrrrg"/>
+        <phase duration="2.90"  state="grGGggrrrrrggrrYggrrrg"/>
+        <phase duration="2.10"  state="grGGggrrrrrggrrrggrrrg"/>
+        <phase duration="0.90"  state="grYYggrrrrrggrrrggrrrg"/>
+        <phase duration="2.70"  state="gGYYggrrrrrggrrrggrrrg"/>
+        <phase duration="3.20"  state="gGrrggrrrrrggrrrggrrrg"/>
+        <phase duration="19.10" state="gGrrggrrrrrgGGGrggrrrg"/>
+        <phase duration="0.90"  state="gYrrggrrrrrgGGGrggrrrg"/>
+        <phase duration="3.70"  state="gYrrggrrrrrggYYrggrrrg"/>
+        <phase duration="2"  state="grrrggrrrrrggrrrggrrrg"/>
+    </tlLogic>
+    <tlLogic id="guinea_rd" type="static" programID="2" offset="0">
+        <phase duration="16.15" state="grrrggrrrGGggrrrggrrGG"/>
+        <phase duration="3.80"  state="grrrggrrrGGggrrrggrrYg"/>
+        <phase duration="3.50"  state="grrrggrrrGGggrrrggrrrg"/>
+        <phase duration="18.20" state="grrrgGrGGGGggrrrggrrrg"/>
+        <phase duration="3.80"  state="grrrgGrGGYYggrrrggrrrg"/>
+        <phase duration="3.90"  state="grrrgGrGGrrggrrrggrrrg"/>
+        <phase duration="76.50" state="grrrgGrGGrrggrrrggGGrg"/>
+        <phase duration="4.60"  state="grrrggrYYrrggrrrggYYrg"/>
+        <phase duration="6"  state="grrrggrrrrrggrrrggrrrg"/>
+        <phase duration="15.30" state="GrGGggrrrrrggrrGggrrrg"/>
+        <phase duration="3"  state="grGGggrrrrrggrrYggrrrg"/>
+        <phase duration="2.90"  state="grGGggrrrrrggrrrggrrrg"/>
+        <phase duration="11.10" state="GGGGggrrrrrggrrrggrrrg"/>
+        <phase duration="3.50"  state="GGYYggrrrrrggrrrggrrrg"/>
+        <phase duration="3.20"  state="GGrrggrrrrrggrrrggrrrg"/>
+        <phase duration="18.75" state="GGrrggrrrrrgGGGrggrrrg"/>
+        <phase duration="0.80"  state="gYrrggrrrrrgGGGrggrrrg"/>
+        <phase duration="3.70"  state="gYrrggrrrrrggYYrggrrrg"/>
+        <phase duration="2"  state="grrrggrrrrrggrrrggrrrg"/>
     </tlLogic>
 
     <junction id="1259934471" type="right_before_left" x="4843.15" y="721.71" incLanes="-8817574#8_0 -110295256_0 8817574#7_0" intLanes=":1259934471_0_0 :1259934471_1_0 :1259934471_2_0 :1259934471_3_0 :1259934471_4_0 :1259934471_5_0 :1259934471_6_0 :1259934471_7_0 :1259934471_8_0" shape="4842.28,728.46 4848.27,726.19 4848.14,725.41 4848.24,725.13 4848.46,724.93 4848.79,724.80 4849.24,724.75 4849.07,718.35 4846.87,718.26 4846.05,718.08 4845.40,717.83 4844.93,717.49 4844.65,717.08 4838.76,719.60">
