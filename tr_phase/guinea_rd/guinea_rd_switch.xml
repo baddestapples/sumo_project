@@ -1,0 +1,70 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="guinea_rd" type="static" programID="am" offset="0">
+        <phase duration="8.45" state="grrrggrrrGGgGrrrggrrrg"/>
+        <phase duration="3.80" state="grrrggrrrYYgGrrrggrrrg"/>
+        <phase duration="3.90" state="grrrggrrrrrggrrrggrrrg"/>
+        <phase duration="2.54" state="grrrggrrrrrgGrrrggGGrg"/>
+        <phase duration="3.80" state="grrrggrrrrrgYrrrggGGrg"/>
+        <phase duration="3.50" state="grrrggrrrrrgrrrrggGGrg"/>
+        <phase duration="74.98" state="grrrggrGGrrgrrrrggGGrg"/>
+        <phase duration="4.60" state="grrrggrYYrrgrrrrggYYrg"/>
+        <phase duration="1" state="grrrggrrrrrgrrrrggrrrg"/>
+        <phase duration="17" state="GrGGggrrrrrgrrrGGgrrrg"/>
+        <phase duration="3.50" state="grYYggrrrrrgrrrGGgrrrg"/>
+        <phase duration="1.87" state="grrrggrrrrrgrrrGGgrrrg"/>
+        <phase duration="1.33" state="grrrggrrrrrgrrrYggrrrg"/>
+        <phase duration="1.67" state="grrrggrrrrrgGGGYggrrrg"/>
+        <phase duration="2.90" state="grrrggrrrrrgGGGrggrrrg"/>
+        <phase duration="41.16" state="gGrrggrrrrrgGGGrggrrrg"/>
+        <phase duration="0.80" state="gYrrggrrrrrgGGGrggrrrg"/>
+        <phase duration="3.70" state="gYrrggrrrrrggYYrggrrrg"/>
+        <phase duration="2" state="grrrggrrrrrggrrrggrrrg"/>
+    </tlLogic>
+    <tlLogic id="guinea_rd" type="static" programID="ampm" offset="0">
+        <phase duration="13.70" state="grrrggrrrGGggrrrggrrGG"/>
+        <phase duration="2.60" state="grrrggrrrGGgGrrrggrrYg"/>
+        <phase duration="1.20" state="grrrggrrrYYggrrrggrrYg"/>
+        <phase duration="2.60" state="grrrggrrrYYggrrrggrrrg"/>
+        <phase duration="0.90" state="grrrggrrrrrggrrrgGrrrg"/>
+        <phase duration="3" state="grrrgGrGGrrggrrrgGrrrg"/>
+        <phase duration="75.40" state="grrrgGrGGrrggrrrgGGGrg"/>
+        <phase duration="4.60" state="grrrggrYYrrggrrrggYYrg"/>
+        <phase duration="1" state="grrrggrrrrrggrrrggrrrg"/>
+        <phase duration="20" state="grGGggrrrrrggrrGggrrrg"/>
+        <phase duration="2.90" state="grGGggrrrrrggrrYggrrrg"/>
+        <phase duration="2.10" state="grGGggrrrrrggrrrggrrrg"/>
+        <phase duration="0.90" state="grYYggrrrrrggrrrggrrrg"/>
+        <phase duration="2.70" state="gGYYggrrrrrggrrrggrrrg"/>
+        <phase duration="3.20" state="gGrrggrrrrrggrrrggrrrg"/>
+        <phase duration="19.10" state="gGrrggrrrrrgGGGrggrrrg"/>
+        <phase duration="0.90" state="gYrrggrrrrrgGGGrggrrrg"/>
+        <phase duration="3.70" state="gYrrggrrrrrggYYrggrrrg"/>
+        <phase duration="2" state="grrrggrrrrrggrrrggrrrg"/>
+    </tlLogic>
+    <tlLogic id="guinea_rd" type="static" programID="pm" offset="0">
+	    <phase duration="16.15" state="grrrggrrrGGggrrrggrrGG"/>
+        <phase duration="3.80" state="grrrggrrrGGggrrrggrrYg"/>
+        <phase duration="3.50" state="grrrggrrrGGggrrrggrrrg"/>
+        <phase duration="18.20" state="grrrgGrGGGGggrrrggrrrg"/>
+        <phase duration="3.80" state="grrrgGrGGYYggrrrggrrrg"/>
+        <phase duration="3.90" state="grrrgGrGGrrggrrrggrrrg"/>
+        <phase duration="76.50" state="grrrgGrGGrrggrrrggGGrg"/>
+        <phase duration="4.60" state="grrrggrYYrrggrrrggYYrg"/>
+        <phase duration="6" state="grrrggrrrrrggrrrggrrrg"/>
+        <phase duration="15.30" state="GrGGggrrrrrggrrGggrrrg"/>
+        <phase duration="3" state="grGGggrrrrrggrrYggrrrg"/>
+        <phase duration="2.90" state="grGGggrrrrrggrrrggrrrg"/>
+        <phase duration="11.10" state="GGGGggrrrrrggrrrggrrrg"/>
+        <phase duration="3.50" state="GGYYggrrrrrggrrrggrrrg"/>
+        <phase duration="3.20" state="GGrrggrrrrrggrrrggrrrg"/>
+        <phase duration="18.75" state="GGrrggrrrrrgGGGrggrrrg"/>
+        <phase duration="0.80" state="gYrrggrrrrrgGGGrggrrrg"/>
+        <phase duration="3.70" state="gYrrggrrrrrggYYrggrrrg"/>
+        <phase duration="2" state="grrrggrrrrrggrrrggrrrg"/>
+    </tlLogic>
+	<WAUT startProg="am" refTime="0" id="guineaWaut">
+		<wautSwitch to="ampm" time="10800"></wautSwitch>
+		<wautSwitch to="pm" time="32400"></wautSwitch>
+	</WAUT>
+	<wautJunction junctionID="guinea_rd" wautID="guineaWaut"></wautJunction>
+</additional>

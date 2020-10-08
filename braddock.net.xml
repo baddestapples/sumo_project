@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 10/05/20 04:02:14 by Eclipse SUMO netedit Version 1.7.0
+<!-- generated on 10/07/20 20:04:16 by Eclipse SUMO netedit Version 1.7.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="C:\Users\putta\Google%20Drive\career\GMU\Courses\3rd%20Sem\CS%20695%20001%20-%20CAV\Assignment\Assignment%201\2\sumo_project\.\braddock.net.xml"/>
+        <sumo-net-file value="C:\Users\anike\Desktop\Education\George%20Mason%20University\Sem%204-Fall%20-%202020\CS%20695%20-%20Connected%20Autonomous%20Vehicles\Projects\1st%20mini%20project\Git_Repo\sumo_project\braddock.net.xml"/>
     </input>
 
     <output>
-        <output-file value="C:\Users\putta\Google%20Drive\career\GMU\Courses\3rd%20Sem\CS%20695%20001%20-%20CAV\Assignment\Assignment%201\2\sumo_project\.\braddock.net.xml"/>
+        <output-file value="C:\Users\anike\Desktop\Education\George%20Mason%20University\Sem%204-Fall%20-%202020\CS%20695%20-%20Connected%20Autonomous%20Vehicles\Projects\1st%20mini%20project\Git_Repo\sumo_project\braddock.net.xml"/>
     </output>
 
     <processing>
@@ -10133,10 +10133,7 @@
         <lane id=":olley_ln_5_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="17.88" length="16.64" shape="3478.58,1291.95 3491.31,1281.10"/>
     </edge>
     <edge id=":olley_ln_7" function="internal">
-        <lane id=":olley_ln_7_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="10.38" length="11.86" shape="3480.87,1294.19 3485.56,1291.17 3490.72,1290.95 3491.74,1291.41"/>
-    </edge>
-    <edge id=":olley_ln_8" function="internal">
-        <lane id=":olley_ln_8_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="10.38" length="13.23" shape="3491.74,1291.41 3496.37,1293.51 3502.50,1298.87"/>
+        <lane id=":olley_ln_7_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="10.38" length="25.09" shape="3480.87,1294.19 3485.56,1291.17 3490.72,1290.95 3496.37,1293.51 3502.50,1298.87"/>
     </edge>
     <edge id=":rolling_rd_0" function="internal">
         <lane id=":rolling_rd_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="20.12" length="29.29" shape="4655.31,806.09 4626.01,806.40"/>
@@ -13752,7 +13749,6 @@
         <phase duration="17" state="rrrrGGGGgGrrrrrrrr" minDur="7" maxDur="50"/>
         <phase duration="6"  state="rrrryyyyyyrrrrrrrr"/>
     </tlLogic>
-    
     <tlLogic id="cluster_1446759509_63641116_660058498" type="static" programID="190" offset="0">
         <phase duration="57.80" state="rrrrrGGG"/>
         <phase duration="4.60"  state="rrrrrGGy"/>
@@ -17700,7 +17696,7 @@
         <request index="20" response="0000001110000111101110" foes="0000001110000111111110" cont="0"/>
         <request index="21" response="0000001000000110000000" foes="0000001000000110000000" cont="1"/>
     </junction>
-    <junction id="olley_ln" type="traffic_light" x="3494.42" y="1292.16" incLanes="232089990#6_0 232089990#6_1 590855742#2.61_0 590855742#2.61_1 590855742#2.61_2 590855741#1.52_0 590855741#1.52_1 590855741#1.52_2" intLanes=":olley_ln_0_0 :olley_ln_1_0 :olley_ln_2_0 :olley_ln_3_0 :olley_ln_3_1 :olley_ln_5_0 :olley_ln_5_1 :olley_ln_8_0" shape="3496.68,1304.36 3503.66,1297.77 3502.43,1295.81 3502.26,1294.83 3502.38,1293.84 3502.81,1292.84 3503.53,1291.83 3487.70,1277.93 3485.29,1280.47 3483.33,1282.16 3481.58,1283.41 3479.80,1284.63 3477.73,1286.22 3475.15,1288.59 3490.41,1303.53 3492.35,1302.35 3493.37,1302.31 3494.44,1302.63 3495.54,1303.31">
+    <junction id="olley_ln" type="traffic_light" x="3494.42" y="1292.16" incLanes="232089990#6_0 232089990#6_1 590855742#2.61_0 590855742#2.61_1 590855742#2.61_2 590855741#1.52_0 590855741#1.52_1 590855741#1.52_2" intLanes=":olley_ln_0_0 :olley_ln_1_0 :olley_ln_2_0 :olley_ln_3_0 :olley_ln_3_1 :olley_ln_5_0 :olley_ln_5_1 :olley_ln_7_0" shape="3496.68,1304.36 3503.66,1297.77 3502.43,1295.81 3502.26,1294.83 3502.38,1293.84 3502.81,1292.84 3503.53,1291.83 3487.70,1277.93 3485.29,1280.47 3483.33,1282.16 3481.58,1283.41 3479.80,1284.63 3477.73,1286.22 3475.15,1288.59 3490.41,1303.53 3492.35,1302.35 3493.37,1302.31 3494.44,1302.63 3495.54,1303.31">
         <request index="0" response="00011000" foes="00011000" cont="0"/>
         <request index="1" response="11111000" foes="11111000" cont="0"/>
         <request index="2" response="00000000" foes="10000000" cont="0"/>
@@ -17708,7 +17704,7 @@
         <request index="4" response="00000000" foes="10000011" cont="0"/>
         <request index="5" response="00000000" foes="00000010" cont="0"/>
         <request index="6" response="00000000" foes="00000010" cont="0"/>
-        <request index="7" response="00011100" foes="00011110" cont="1"/>
+        <request index="7" response="00011100" foes="00011110" cont="0"/>
     </junction>
     <junction id="rolling_rd" type="traffic_light" x="4638.95" y="784.81" incLanes="171719498#1.56_0 171719498#1.56_1 171719498#1.56_2 590855759#9_0 590855759#9_1 144267617#4.122_0 144267617#4.122_1 144267617#4.122_2" intLanes=":rolling_rd_0_0 :rolling_rd_0_1 :rolling_rd_2_0 :rolling_rd_3_0 :rolling_rd_4_0 :rolling_rd_5_0 :rolling_rd_6_0 :rolling_rd_7_0 :rolling_rd_7_1" shape="4655.44,807.69 4653.23,781.60 4651.00,780.88 4650.22,779.81 4649.65,778.26 4649.29,776.24 4649.16,773.75 4628.15,774.03 4628.07,776.65 4627.77,778.81 4627.24,780.50 4626.48,781.73 4625.49,782.49 4624.27,782.79 4626.12,808.00">
         <request index="0" response="000000000" foes="000110000" cont="0"/>
@@ -18210,7 +18206,6 @@
     <junction id=":guinea_rd_23_0" type="internal" x="3821.31" y="886.37" incLanes=":guinea_rd_11_0 117274079#1_0 131360790#0_1 131360790#0_2 590855741#4.91_1 590855741#4.91_2" intLanes=":guinea_rd_2_0 :guinea_rd_3_0 :guinea_rd_12_0 :guinea_rd_18_0 :guinea_rd_18_1"/>
     <junction id=":guinea_rd_24_0" type="internal" x="3797.40" y="885.17" incLanes=":guinea_rd_16_0 131360790#0_1 171719506#3.58_2 171719506#3.58_3 590855741#4.91_0" intLanes=":guinea_rd_1_0 :guinea_rd_9_0 :guinea_rd_10_0 :guinea_rd_17_0"/>
     <junction id=":guinea_rd_25_0" type="internal" x="3799.39" y="906.77" incLanes=":guinea_rd_21_0 117274079#1_3 131360790#0_0 171719506#3.58_1 171719506#3.58_2" intLanes=":guinea_rd_0_0 :guinea_rd_7_0 :guinea_rd_7_1 :guinea_rd_15_0"/>
-    <junction id=":olley_ln_8_0" type="internal" x="3491.74" y="1291.41" incLanes=":olley_ln_7_0 590855742#2.61_0 590855742#2.61_1 590855742#2.61_2" intLanes=":olley_ln_1_0 :olley_ln_2_0 :olley_ln_3_0 :olley_ln_3_1"/>
     <junction id=":twinbrook_rd_18_0" type="internal" x="3144.50" y="1574.36" incLanes=":twinbrook_rd_3_0 -590855714#1_0 590855737#2.97_3 590855742#3.305_0" intLanes=":twinbrook_rd_4_0 :twinbrook_rd_10_0 :twinbrook_rd_16_0"/>
     <junction id=":twinbrook_rd_19_0" type="internal" x="3145.00" y="1552.40" incLanes=":twinbrook_rd_8_0 -590855714#1_0 590855737#2.97_1 590855737#2.97_2 8832625#3_0" intLanes=":twinbrook_rd_2_0 :twinbrook_rd_9_0 :twinbrook_rd_14_0 :twinbrook_rd_14_1"/>
     <junction id=":twinbrook_rd_20_0" type="internal" x="3131.57" y="1544.47" incLanes=":twinbrook_rd_12_0 590855737#2.97_0 590855742#3.305_2 8832625#3_0" intLanes=":twinbrook_rd_1_0 :twinbrook_rd_7_0 :twinbrook_rd_13_0"/>
@@ -24638,8 +24633,7 @@
     <connection from=":olley_ln_3" to="590855742#3" fromLane="1" toLane="1" dir="s" state="M"/>
     <connection from=":olley_ln_5" to="590855741#2" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":olley_ln_5" to="590855741#2" fromLane="1" toLane="1" dir="s" state="M"/>
-    <connection from=":olley_ln_7" to="-232089990#6" fromLane="0" toLane="0" via=":olley_ln_8_0" dir="l" state="m"/>
-    <connection from=":olley_ln_8" to="-232089990#6" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":olley_ln_7" to="-232089990#6" fromLane="0" toLane="0" dir="l" state="M"/>
     <connection from=":rolling_rd_0" to="171719506#0" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":rolling_rd_0" to="171719506#0" fromLane="1" toLane="1" dir="s" state="M"/>
     <connection from=":rolling_rd_2" to="116948789#1" fromLane="0" toLane="1" dir="l" state="M"/>
