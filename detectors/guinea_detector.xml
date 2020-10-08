@@ -1,0 +1,20 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+   <inductionLoop id="guinea_detector_EB3" lane="590855741#4.91_0" pos="-10" freq="3600" file="guinea_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="guinea_detector_EB2" lane="590855741#4.91_1" pos="-10" freq="3600" file="guinea_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="guinea_detector_EB1" lane="590855741#4.91_2" pos="-10" freq="3600" file="guinea_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="guinea_detector_EB0" lane="590855741#4.91_3" pos="-10" freq="3600" file="guinea_Detector_results_hourly.xml" friendlyPos="true"/>
+
+   <inductionLoop id="guinea_detector_WB0" lane="171719506#3.58_0" pos="-10" freq="3600" file="guinea_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="guinea_detector_WB1" lane="171719506#3.58_1" pos="-10" freq="3600" file="guinea_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="guinea_detector_WB2" lane="171719506#3.58_2" pos="-10" freq="3600" file="guinea_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="guinea_detector_WB3" lane="171719506#3.58_3" pos="-10" freq="3600" file="guinea_Detector_results_hourly.xml" friendlyPos="true"/>
+
+   <inductionLoop id="guinea_detector_NB0" lane="117274079#1_3" pos="-10" freq="3600" file="guinea_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="guinea_detector_NB1" lane="117274079#1_2" pos="-10" freq="3600" file="guinea_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="guinea_detector_NB2" lane="117274079#1_1" pos="-10" freq="3600" file="guinea_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="guinea_detector_NB3" lane="117274079#1_0" pos="-10" freq="3600" file="guinea_Detector_results_hourly.xml" friendlyPos="true"/>
+
+   <inductionLoop id="guinea_detector_SB0" lane="131360790#0_0" pos="-10" freq="3600" file="guinea_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="guinea_detector_SB1" lane="131360790#0_1" pos="-10" freq="3600" file="guinea_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="guinea_detector_SB2" lane="131360790#0_2" pos="-10" freq="3600" file="guinea_Detector_results_hourly.xml" friendlyPos="true"/>
+</additional>

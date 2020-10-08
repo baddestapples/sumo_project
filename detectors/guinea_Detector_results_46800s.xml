@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 10/07/20 20:41:58 by Eclipse SUMO GUI Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\anike\Desktop\Education\George%20Mason%20University\Sem%204-Fall%20-%202020\CS%20695%20-%20Connected%20Autonomous%20Vehicles\Projects\1st%20mini%20project\Git_Repo\sumo_project\.\braddock.net.xml"/>
+        <route-files value="C:\Users\anike\Desktop\Education\George%20Mason%20University\Sem%204-Fall%20-%202020\CS%20695%20-%20Connected%20Autonomous%20Vehicles\Projects\1st%20mini%20project\Git_Repo\sumo_project\.\braddock-flow.rou.xml"/>
+        <additional-files value="C:\Users\anike\Desktop\Education\George%20Mason%20University\Sem%204-Fall%20-%202020\CS%20695%20-%20Connected%20Autonomous%20Vehicles\Projects\1st%20mini%20project\Git_Repo\sumo_project\tr_phase/twinbrook_dr/twinbrook_switch.xml,C:\Users\anike\Desktop\Education\George%20Mason%20University\Sem%204-Fall%20-%202020\CS%20695%20-%20Connected%20Autonomous%20Vehicles\Projects\1st%20mini%20project\Git_Repo\sumo_project\tr_phase/burke_lake/burke_lake_switch.xml,C:\Users\anike\Desktop\Education\George%20Mason%20University\Sem%204-Fall%20-%202020\CS%20695%20-%20Connected%20Autonomous%20Vehicles\Projects\1st%20mini%20project\Git_Repo\sumo_project\tr_phase/rolling_rd/rolling_rd_switch.xml,C:\Users\anike\Desktop\Education\George%20Mason%20University\Sem%204-Fall%20-%202020\CS%20695%20-%20Connected%20Autonomous%20Vehicles\Projects\1st%20mini%20project\Git_Repo\sumo_project\tr_phase/olley_ln/olley_ln_switch.xml,C:\Users\anike\Desktop\Education\George%20Mason%20University\Sem%204-Fall%20-%202020\CS%20695%20-%20Connected%20Autonomous%20Vehicles\Projects\1st%20mini%20project\Git_Repo\sumo_project\tr_phase/guinea_rd/guinea_rd_switch.xml,C:\Users\anike\Desktop\Education\George%20Mason%20University\Sem%204-Fall%20-%202020\CS%20695%20-%20Connected%20Autonomous%20Vehicles\Projects\1st%20mini%20project\Git_Repo\sumo_project\detectors/guinea_detector.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="46800"/>
+    </time>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="46800.00" id="guinea_detector_EB3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="46800.00" id="guinea_detector_EB2" nVehContrib="5548" flow="426.77" occupancy="41.57" speed="11.62" harmonicMeanSpeed="1.45" length="5.00" nVehEntered="5581"/>
+    <interval begin="0.00" end="46800.00" id="guinea_detector_EB1" nVehContrib="4581" flow="352.38" occupancy="36.77" speed="12.77" harmonicMeanSpeed="1.34" length="5.00" nVehEntered="4592"/>
+    <interval begin="0.00" end="46800.00" id="guinea_detector_EB0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="46800.00" id="guinea_detector_WB0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="46800.00" id="guinea_detector_WB1" nVehContrib="3585" flow="275.77" occupancy="36.16" speed="11.10" harmonicMeanSpeed="1.06" length="5.00" nVehEntered="3601"/>
+    <interval begin="0.00" end="46800.00" id="guinea_detector_WB2" nVehContrib="6502" flow="500.15" occupancy="45.26" speed="10.64" harmonicMeanSpeed="1.59" length="5.00" nVehEntered="6609"/>
+    <interval begin="0.00" end="46800.00" id="guinea_detector_WB3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="46800.00" id="guinea_detector_NB0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="46800.00" id="guinea_detector_NB1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="46800.00" id="guinea_detector_NB2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="46800.00" id="guinea_detector_NB3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="46800.00" id="guinea_detector_SB0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="46800.00" id="guinea_detector_SB1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="0.00" end="46800.00" id="guinea_detector_SB2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="46800.00" end="49565.00" id="guinea_detector_EB3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="46800.00" end="49565.00" id="guinea_detector_EB2" nVehContrib="25" flow="32.55" occupancy="0.86" speed="13.35" harmonicMeanSpeed="0.96" length="5.00" nVehEntered="24"/>
+    <interval begin="46800.00" end="49565.00" id="guinea_detector_EB1" nVehContrib="16" flow="20.83" occupancy="0.76" speed="12.53" harmonicMeanSpeed="0.67" length="5.00" nVehEntered="15"/>
+    <interval begin="46800.00" end="49565.00" id="guinea_detector_EB0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="46800.00" end="49565.00" id="guinea_detector_WB0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="46800.00" end="49565.00" id="guinea_detector_WB1" nVehContrib="336" flow="437.47" occupancy="37.90" speed="12.64" harmonicMeanSpeed="1.60" length="5.00" nVehEntered="337"/>
+    <interval begin="46800.00" end="49565.00" id="guinea_detector_WB2" nVehContrib="537" flow="699.17" occupancy="52.82" speed="9.39" harmonicMeanSpeed="2.00" length="5.00" nVehEntered="545"/>
+    <interval begin="46800.00" end="49565.00" id="guinea_detector_WB3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="46800.00" end="49565.00" id="guinea_detector_NB0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="46800.00" end="49565.00" id="guinea_detector_NB1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="46800.00" end="49565.00" id="guinea_detector_NB2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="46800.00" end="49565.00" id="guinea_detector_NB3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="46800.00" end="49565.00" id="guinea_detector_SB0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="46800.00" end="49565.00" id="guinea_detector_SB1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="46800.00" end="49565.00" id="guinea_detector_SB2" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+</detector>
