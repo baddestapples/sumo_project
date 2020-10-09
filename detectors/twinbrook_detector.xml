@@ -1,0 +1,15 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+   <inductionLoop id="twinbrook_detector_EB3" lane="590855737#2.97_0" pos="-10" freq="3600" file="twinbrook_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="twinbrook_detector_EB2" lane="590855737#2.97_1" pos="-10" freq="3600" file="twinbrook_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="twinbrook_detector_EB1" lane="590855737#2.97_2" pos="-10" freq="3600" file="twinbrook_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="twinbrook_detector_EB0" lane="590855737#2.97_3" pos="-10" freq="3600" file="twinbrook_Detector_results_hourly.xml" friendlyPos="true"/>
+
+   <inductionLoop id="twinbrook_detector_WB0" lane="590855742#3.305_0" pos="-10" freq="3600" file="twinbrook_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="twinbrook_detector_WB1" lane="590855742#3.305_1" pos="-10" freq="3600" file="twinbrook_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="twinbrook_detector_WB2" lane="590855742#3.305_2" pos="-10" freq="3600" file="twinbrook_Detector_results_hourly.xml" friendlyPos="true"/>
+
+   <inductionLoop id="twinbrook_detector_NB0" lane="-590855714#1_0" pos="-10" freq="3600" file="twinbrook_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="twinbrook_detector_NB1" lane="-590855714#1_1" pos="-10" freq="3600" file="twinbrook_Detector_results_hourly.xml" friendlyPos="true"/>
+
+   <inductionLoop id="twinbrook_detector_SB0" lane="8832625#3_0" pos="-10" freq="3600" file="twinbrook_Detector_results_hourly.xml" friendlyPos="true"/>
+</additional>
