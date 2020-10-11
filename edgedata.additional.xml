@@ -1,0 +1,8 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+	<edgeData id="measurements_edge_am" file="edgeData_am.xml" begin="0" end="10800"/>
+	<edgeData id="measurements_edge__ampm" file="edgeData_ampm.xml" begin="10800" end="32400"/>
+	<edgeData id="measurements_edge__pm" file="edgeData_pm.xml" begin="32400" end="46800"/>
+	<laneData id="measurements_lane_am" file="laneData_am.xml" begin="0" end="10800"/>
+	<laneData id="measurements_lane__ampm" file="laneData_ampm.xml" begin="10800" end="32400"/>
+	<laneData id="measurements_lane__pm" file="laneData_pm.xml" begin="32400" end="46800"/>
+</additional>

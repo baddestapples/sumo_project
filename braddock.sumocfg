@@ -8,7 +8,7 @@
     <input>
         <net-file value=".\braddock.net.xml"/>
 		<route-files value=".\braddock-flow.rou.xml,.\routes.routes.xml"/>
-		<additional-files value="tr_phase/twinbrook_dr/twinbrook_switch.xml,tr_phase/burke_lake/burke_lake_switch.xml,tr_phase/rolling_rd/rolling_rd_switch.xml,tr_phase/olley_ln/olley_ln_switch.xml,tr_phase/guinea_rd/guinea_rd_switch.xml,detectors/guinea_detector.xml,detectors/twinbrook_detector.xml"/>
+		<additional-files value="edgedata.additional.xml,tr_phase/twinbrook_dr/twinbrook_switch.xml,tr_phase/burke_lake/burke_lake_switch.xml,tr_phase/rolling_rd/rolling_rd_switch.xml,tr_phase/olley_ln/olley_ln_switch.xml,tr_phase/guinea_rd/guinea_rd_switch.xml,detectors/guinea_detector.xml,detectors/twinbrook_detector.xml"/>
     </input>
 	<time>
 		<begin value="0"/>
