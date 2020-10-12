@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 10/05/20 01:27:21 by Eclipse SUMO netedit Version 1.7.0
+<!-- generated on 10/12/20 19:09:47 by Eclipse SUMO netedit Version 1.7.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -29,10 +29,6 @@
         <walkingareas value="false"/>
     </pedestrian>
 
-    <netedit>
-        <route-files value="C:\Users\anike\Desktop\Education\George%20Mason%20University\Sem%204-Fall%20-%202020\CS%20695%20-%20Connected%20Autonomous%20Vehicles\Projects\1st%20mini%20project\Git_Repo\sumo_project\braddock.rou.xml"/>
-    </netedit>
-
     <report>
         <aggregate-warnings value="5"/>
     </report>
@@ -45,11 +41,11 @@
         <phase duration="16.15" state="grrrggrrrGGggrrrggrrGG"/>
         <phase duration="3.80" state="grrrggrrrGGggrrrggrrYg"/>
         <phase duration="3.50" state="grrrggrrrGGggrrrggrrrg"/>
-        <phase duration="18.20" state="grrrgGrGGGGggrrrggrrrg"/>
-        <phase duration="3.80" state="grrrgGrGGYYggrrrggrrrg"/>
-        <phase duration="3.90" state="grrrgGrGGrrggrrrggrrrg"/>
-        <phase duration="76.50" state="grrrgGrGGrrggrrrggGGrg"/>
-        <phase duration="4.60" state="grrrggrYYrrggrrrggYYrg"/>
+        <phase duration="18.20" state="grrrgGGGGGGggrrrggrrrg"/>
+        <phase duration="3.80" state="grrrgGGGGYYggrrrggrrrg"/>
+        <phase duration="3.90" state="grrrgGGGGrrggrrrggrrrg"/>
+        <phase duration="76.50" state="grrrgGGGGrrggrrrggGGrg"/>
+        <phase duration="4.60" state="grrrggYYYrrggrrrggYYrg"/>
         <phase duration="6" state="grrrggrrrrrggrrrggrrrg"/>
         <phase duration="15.30" state="GrGGggrrrrrggrrGggrrrg"/>
         <phase duration="3" state="grGGggrrrrrggrrYggrrrg"/>
