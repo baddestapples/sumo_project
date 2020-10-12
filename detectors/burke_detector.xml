@@ -1,0 +1,38 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+   <inductionLoop id="burke_detector_EB0" lane="171719519#6_0" pos="-10" freq="3600" file="burke_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="burke_detector_EB1" lane="171719519#6_1" pos="-10" freq="3600" file="burke_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="burke_detector_EB2" lane="171719519#6_2" pos="-10" freq="3600" file="burke_Detector_results_hourly.xml" friendlyPos="true"/>
+																						   
+   <inductionLoop id="burke_detector_WB0" lane="171719521#2_0" pos="-10" freq="3600" file="burke_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="burke_detector_WB1" lane="171719521#2_1" pos="-10" freq="3600" file="burke_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="burke_detector_WB2" lane="171719521#2_2" pos="-10" freq="3600" file="burke_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="burke_detector_WB3" lane="171719521#2_3" pos="-10" freq="3600" file="burke_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="burke_detector_WB4" lane="171719521#2_4" pos="-10" freq="3600" file="burke_Detector_results_hourly.xml" friendlyPos="true"/>
+
+   <inductionLoop id="burke_detector_NB0" lane="117289064#6_0" pos="-10" freq="3600" file="burke_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="burke_detector_NB1" lane="117289064#6_1" pos="-10" freq="3600" file="burke_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="burke_detector_NB2" lane="117289064#6_2" pos="-10" freq="3600" file="burke_Detector_results_hourly.xml" friendlyPos="true"/>
+
+   <inductionLoop id="burke_detector_SB0" lane="117289053#0_0" pos="-10" freq="3600" file="burke_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="burke_detector_SB1" lane="117289053#0_1" pos="-10" freq="3600" file="burke_Detector_results_hourly.xml" friendlyPos="true"/>
+
+
+   <instantInductionLoop id="burke_detector_EB0" lane="171719519#6_0" pos="-10" file="burke_idetector_EB3.xml" friendlyPos="true"/>
+   <instantInductionLoop id="burke_detector_EB1" lane="171719519#6_1" pos="-10" file="burke_idetector_EB2.xml" friendlyPos="true"/>
+   <instantInductionLoop id="burke_detector_EB2" lane="171719519#6_2" pos="-10" file="burke_idetector_EB1.xml" friendlyPos="true"/>
+
+
+   <instantInductionLoop id="burke_detector_WB0" lane="171719521#2_0" pos="-10" file="burke_idetector_WB0.xml" friendlyPos="true"/>
+   <instantInductionLoop id="burke_detector_WB1" lane="171719521#2_1" pos="-10" file="burke_idetector_WB1.xml" friendlyPos="true"/>
+   <instantInductionLoop id="burke_detector_WB2" lane="171719521#2_2" pos="-10" file="burke_idetector_WB2.xml" friendlyPos="true"/>
+   <instantInductionLoop id="burke_detector_WB3" lane="171719521#2_3" pos="-10" file="burke_idetector_WB3.xml" friendlyPos="true"/>
+   <instantInductionLoop id="burke_detector_WB4" lane="171719521#2_4" pos="-10" file="burke_idetector_WB4.xml" friendlyPos="true"/>
+
+   <instantInductionLoop id="burke_detector_NB0" lane="117289064#6_0" pos="-10" file="burke_idetector_NB0.xml" friendlyPos="true"/>
+   <instantInductionLoop id="burke_detector_NB1" lane="117289064#6_1" pos="-10" file="burke_idetector_NB1.xml" friendlyPos="true"/>
+   <instantInductionLoop id="burke_detector_NB2" lane="117289064#6_2" pos="-10" file="burke_idetector_NB2.xml" friendlyPos="true"/>
+
+   <instantInductionLoop id="burke_detector_SB0" lane="117289053#0_0" pos="-10" file="burke_idetector_SB0.xml" friendlyPos="true"/>
+   <instantInductionLoop id="burke_detector_SB1" lane="117289053#0_1" pos="-10" file="burke_idetector_SB1.xml" friendlyPos="true"/>
+  
+</additional>

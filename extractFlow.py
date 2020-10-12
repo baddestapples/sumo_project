@@ -1,7 +1,8 @@
 import xml.etree.ElementTree as ET
 import pprint
+import os
 
-filepath='C:/Users/Jon/OneDrive/Documents/Project1SUMO/detectors/twinbrook_Detector_results_hourly.xml'
+filepath= os.path.dirname(os.path.abspath(__file__))+'/detectors/twinbrook_Detector_results_hourly.xml'
 tree = ET.parse(filepath)
 root = tree.getroot()
 

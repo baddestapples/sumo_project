@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="cluster_1317288004_1709929511_1709929514_63558180_660058461" type="actuated" programID="150pm" offset="0">
+        <phase duration="21.50" minDur="10" maxDur="30" state="GGGgrrgrr"/>
+        <phase duration="5.20" state="GGygrrgrr"/>
+        <phase duration="3.30" state="GGrgrrgrr"/>
+        <phase duration="64.50" minDur="50" maxDur="80" state="GGrgrrgGG"/>
+        <phase duration="5.20" state="yyrgrrgyy"/>
+        <phase duration="3.30" state="rrrgrrgrr"/>
+        <phase duration="38.30" minDur="25" maxDur="50" state="rrrgGGGrr"/>
+        <phase duration="3.80" state="rrrgyygrr"/>
+        <phase duration="4.90" state="rrrgrrgrr"/>
+    </tlLogic>
+	<!-- just reduced 64.5 to 44.5 in 4th phase-->
+    <tlLogic id="cluster_1317288004_1709929511_1709929514_63558180_660058461" type="actuated" programID="170am" offset="0">
+        <phase duration="21.50" minDur="10" maxDur="30" state="GGGgrrgrr"/>
+        <phase duration="5.20" state="GGygrrgrr"/>
+        <phase duration="3.30" state="GGrgrrgrr"/>
+        <phase duration="44.50" minDur="30" maxDur="60" state="GGrgrrgGG"/>
+        <phase duration="5.20" state="yyrgrrgyy"/>
+        <phase duration="3.30" state="rrrgrrgrr"/>
+        <phase duration="38.30" minDur="25" maxDur="50" state="rrrgGGGrr"/>
+        <phase duration="3.80" state="rrrgyygrr"/>
+        <phase duration="4.90" state="rrrgrrgrr"/>
+    </tlLogic>
+    <tlLogic id="cluster_1317288004_1709929511_1709929514_63558180_660058461" type="actuated" programID="190ampm" offset="0">
+        <phase duration="12.5" minDur="7" maxDur="16" state="GGGgrrgrr"/>
+        <phase duration="5.20" state="GGygrrgrr"/>
+        <phase duration="3.30" state="GGrgrrgrr"/>
+        <phase duration="89.5" minDur="60" maxDur="110" state="GGrgrrgGG"/>
+        <phase duration="5.20" state="yyrgrrgyy"/>
+        <phase duration="3.30" state="rrrgrrgrr"/>
+        <phase duration="62.3" minDur="50" maxDur="80" state="rrrgGGGrr"/>
+        <phase duration="3.80" state="rrrgyygrr"/>
+        <phase duration="4.90" state="rrrgrrgrr"/>
+    </tlLogic>
+	<WAUT startProg="170am" refTime="0" id="rollingWaut">
+		<wautSwitch to="190ampm" time="10800"></wautSwitch>
+		<wautSwitch to="150pm" time="32400"></wautSwitch>
+	</WAUT>
+	<wautJunction junctionID="cluster_1317288004_1709929511_1709929514_63558180_660058461" wautID="rollingWaut"></wautJunction>
+</additional>

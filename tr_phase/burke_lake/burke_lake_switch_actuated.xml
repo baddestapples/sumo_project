@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+   <!--randomly decreased-->
+   <tlLogic id="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" type="actuated" programID="150pm" offset="0">
+        <phase duration="10.7" minDur="8" maxDur="13" state="grrgrrGGggrrrrG"/>
+        <phase duration="4.30"  state="grrgrryyggrrrrG"/>
+        <phase duration="3"  state="grrgrrrrggrrrrG"/>
+        <phase duration="9.70" minDur="8" maxDur="13" state="grrgrrrrggrrGGG"/>
+        <phase duration="4.30"  state="grrgrrrrggrrGGy"/>
+        <phase duration="3"  state="grrgrrrrggrrGGr"/>
+        <phase duration="80.7" minDur="75" maxDur="85" state="grrgGGrrggrrGGr"/>
+        <phase duration="4.30"  state="grrgyyrrggrryyr"/>
+        <phase duration="3"  state="grrgrrrrggrrrrr"/>
+        <phase duration="19.60" minDur="16" maxDur="23" state="gGrgrrrrggGrrrr"/>
+        <phase duration="4.70"  state="gyrgrrrrggyrrrr"/>
+        <phase duration="2.70"  state="grrgrrrrggrrrrr"/>
+    </tlLogic><tlLogic id="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" type="actuated" programID="170am" offset="0">
+        <phase duration="10.70" minDur="9" maxDur="15" state="grrgrrGGggrrrrG"/>
+        <phase duration="4.30"  state="grrgrryyggrrrrG"/>
+        <phase duration="3"  state="grrgrrrrggrrrrG"/>
+        <phase duration="9.70" minDur="8" maxDur="13" state="grrgrrrrggrrGGG"/>
+        <phase duration="4.30"  state="grrgrrrrggrrGGy"/>
+        <phase duration="3"  state="grrgrrrrggrrGGr"/>
+        <phase duration="100.70" minDur="90" maxDur="115" state="grrgGGrrggrrGGr"/>
+        <phase duration="4.30"  state="grrgyyrrggrryyr"/>
+        <phase duration="3"  state="grrgrrrrggrrrrr"/>
+        <phase duration="19.60" minDur="15" maxDur="22" state="gGrgrrrrggGrrrr"/>
+        <phase duration="4.70"  state="gyrgrrrrggyrrrr"/>
+        <phase duration="2.70"  state="grrgrrrrggrrrrr"/>
+	<!--randomly increased-->
+    </tlLogic><tlLogic id="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" type="actuated" programID="190ampm" offset="0">
+        <phase duration="15.70" minDur="14" maxDur="20" state="grrgrrGGggrrrrG"/>
+        <phase duration="4.30"  state="grrgrryyggrrrrG"/>
+        <phase duration="3"  state="grrgrrrrggrrrrG"/>
+        <phase duration="9.70" minDur="8" maxDur="13" state="grrgrrrrggrrGGG"/>
+        <phase duration="4.30"  state="grrgrrrrggrrGGy"/>
+        <phase duration="3"  state="grrgrrrrggrrGGr"/>
+        <phase duration="110.70" minDur="100" maxDur="120" state="grrgGGrrggrrGGr"/>
+        <phase duration="4.30"  state="grrgyyrrggrryyr"/>
+        <phase duration="3"  state="grrgrrrrggrrrrr"/>
+        <phase duration="24.60" minDur="20" maxDur="28" state="gGrgrrrrggGrrrr"/>
+        <phase duration="4.70"  state="gyrgrrrrggyrrrr"/>
+        <phase duration="2.70"  state="grrgrrrrggrrrrr"/>
+    </tlLogic>
+	<WAUT startProg="170am" refTime="0" id="burkeWaut">
+		<wautSwitch to="190ampm" time="10800"></wautSwitch>
+		<wautSwitch to="150pm" time="32400"></wautSwitch>
+	</WAUT>
+	<wautJunction junctionID="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" wautID="burkeWaut"></wautJunction>
+</additional>

@@ -1,0 +1,26 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+   <inductionLoop id="olley_ln_EB0" lane="590855742#2.61_0" pos="-10" freq="3600" file="olley_detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="olley_ln_EB1" lane="590855742#2.61_1" pos="-10" freq="3600" file="olley_detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="olley_ln_EB2" lane="590855742#2.61_2" pos="-10" freq="3600" file="olley_detector_results_hourly.xml" friendlyPos="true"/>
+
+   <inductionLoop id="olley_ln_WB0" lane="590855741#1.52_0" pos="-10" freq="3600" file="olley_detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="olley_ln_WB1" lane="590855741#1.52_1" pos="-10" freq="3600" file="olley_detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="olley_ln_WB2" lane="590855741#1.52_2" pos="-10" freq="3600" file="olley_detector_results_hourly.xml" friendlyPos="true"/>
+
+   <inductionLoop id="olley_ln_NB0" lane="232089990#6_0" pos="-10" freq="3600" file="olley_detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="olley_ln_NB1" lane="232089990#6_1" pos="-10" freq="3600" file="olley_detector_results_hourly.xml" friendlyPos="true"/>
+   
+   
+   <instantInductionLoop  id="olley_ln_EB0" lane="590855742#2.61_0" pos="-10" file="olley_EB0_idetector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop  id="olley_ln_EB1" lane="590855742#2.61_1" pos="-10" file="olley_EB1_idetector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop  id="olley_ln_EB2" lane="590855742#2.61_2" pos="-10" file="olley_EB2_idetector_results.xml" friendlyPos="true"/>
+
+   <instantInductionLoop  id="olley_ln_WB0" lane="590855741#1.52_0" pos="-10" file="olley_WB0_idetector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop  id="olley_ln_WB1" lane="590855741#1.52_1" pos="-10" file="olley_WB1_idetector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop  id="olley_ln_WB2" lane="590855741#1.52_2" pos="-10" file="olley_WB2_idetector_results.xml" friendlyPos="true"/>
+
+   <instantInductionLoop  id="olley_ln_NB0" lane="232089990#6_0" pos="-10" file="olley_NB0_detector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop  id="olley_ln_NB1" lane="232089990#6_1" pos="-10" file="olley_NB1_detector_results.xml" friendlyPos="true"/>
+   
+
+</additional>

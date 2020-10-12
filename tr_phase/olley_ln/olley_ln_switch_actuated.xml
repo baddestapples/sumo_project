@@ -1,43 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
-	    <tlLogic id="cluster_1446759509_63641116_660058498" type="static" programID="190ampm" offset="0">
-        <phase duration="57.80" state="rrgrrGGG"/>
+	
+	<tlLogic id="cluster_1446759509_63641116_660058498" type="actuated" programID="190ampm" offset="0">
+        <phase duration="57.80" minDur="50" maxDur="65" state="rrgrrGGG"/>
         <phase duration="4.60"  state="rrgrrGGy"/>
         <phase duration="2.60"  state="rrgrrGGr"/>
-        <phase duration="82.80" state="rrgGGGGr"/>
+        <phase duration="82.80" minDur="75" maxDur="90" state="rrgGGGGr"/>
         <phase duration="4.60"  state="rrgyyyyr"/>
         <phase duration="2.60"  state="rrgrrrrr"/>
-        <phase duration="28.40" state="gGGrrrrr"/>
+        <phase duration="28.40" minDur="20" maxDur="40" state="gGGrrrrr"/>
         <phase duration="3.10"  state="gyyrrrrr"/>
         <phase duration="3.50"  state="rrgrrrrr"/>
     </tlLogic>
 	
-	<tlLogic id="cluster_1446759509_63641116_660058498" type="static" programID="150pm" offset="0">
-        <phase duration="21.80" state="rrgrrGGG"/>
+	<tlLogic id="cluster_1446759509_63641116_660058498" type="actuated" programID="150pm" offset="0">
+        <phase duration="21.80" minDur="15" maxDur="30" state="rrgrrGGG"/>
         <phase duration="4.60"  state="rrgrrGGy"/>
         <phase duration="2.60"  state="rrgrrGGr"/>
-        <phase duration="76.80" state="rrgGGGGr"/>
+        <phase duration="76.80" minDur="70" maxDur="85" state="rrgGGGGr"/>
         <phase duration="4.60"  state="rrgyyyyr"/>
         <phase duration="2.60"  state="rrgrrrrr"/>
-        <phase duration="30.4"  state="gGGrrrrr"/>
+        <phase duration="30.4"  minDur="20" maxDur="40" state="gGGrrrrr"/>
         <phase duration="3.10"  state="gyyrrrrr"/>
         <phase duration="3.50"  state="rrgrrrrr"/>
     </tlLogic>
 	
-	<tlLogic id="cluster_1446759509_63641116_660058498" type="static" programID="170am" offset="0">
-        <phase duration="50.96" state="rrgrrGGG"/>
+	<tlLogic id="cluster_1446759509_63641116_660058498" type="actuated" programID="170am" offset="0">
+        <phase duration="50.96" minDur="40" maxDur="60" state="rrgrrGGG"/>
         <phase duration="4.60"  state="rrgrrGGy"/>
         <phase duration="2.60"  state="rrgrrGGr"/>
-        <phase duration="73"    state="rrgGGGGr"/>
+        <phase duration="73"    minDur="60" maxDur="80" state="rrgGGGGr"/>
         <phase duration="4.60"  state="rrgyyyyr"/>
         <phase duration="2.60"  state="rrgrrrrr"/>
-        <phase duration="25.04" state="gGGrrrrr"/>
+        <phase duration="25.04" minDur="15" maxDur="35" state="gGGrrrrr"/>
         <phase duration="3.10"  state="gyyrrrrr"/>
         <phase duration="3.50"  state="rrgrrrrr"/>
     </tlLogic>
+	
+	
 	<WAUT startProg="170am" refTime="0" id="olleyWaut">
 		<wautSwitch to="190ampm" time="10800"></wautSwitch>
 		<wautSwitch to="150pm" time="32400"></wautSwitch>
 	</WAUT>
-	<wautJunction junctionID="cluster_1446759509_63641116_660058498" wautID="olleyWaut"></wautJunction>	
+	<wautJunction junctionID="cluster_1446759509_63641116_660058498" wautID="olleyWaut"></wautJunction>
 </additional>

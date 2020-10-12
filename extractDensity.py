@@ -1,8 +1,11 @@
 import xml.etree.ElementTree as ET
 import pprint
-filepath_am='C:/Users/Jon/OneDrive/Documents/Project1SUMO/laneData_am.xml'
-filepath_ampm='C:/Users/Jon/OneDrive/Documents/Project1SUMO/laneData_ampm.xml'
-filepath_pm='C:/Users/Jon/OneDrive/Documents/Project1SUMO/laneData_pm.xml'
+import os
+
+basepath=os.path.dirname(os.path.abspath(__file__))
+filepath_am=basepath+'/laneData_am.xml'
+filepath_ampm=basepath+'/laneData_ampm.xml'
+filepath_pm=basepath+'/laneData_pm.xml'
 tree = ET.parse(filepath_am)
 root = tree.getroot()[0]
 
@@ -35,5 +38,5 @@ root = tree.getroot()[0]
 laneData['pm'] = calcLanes(root)
 
 pp = pprint.PrettyPrinter(depth=6)
-print pp.pprint(laneData)
+print (pp.pprint(laneData))
     

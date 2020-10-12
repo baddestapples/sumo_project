@@ -1,0 +1,19 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+   <inductionLoop id="rolling_rd_detector_WB0" lane="171719498#1.56_0" pos="-10" freq="3600" file="rolling_rd_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="rolling_rd_detector_WB1" lane="171719498#1.56_1" pos="-10" freq="3600" file="rolling_rd_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="rolling_rd_detector_WB2" lane="171719498#1.56_2" pos="-10" freq="3600" file="rolling_rd_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="rolling_rd_detector_NB0" lane="590855759#9_0" pos="-10" freq="3600" file="rolling_rd_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="rolling_rd_detector_NB2" lane="590855759#9_1" pos="-10" freq="3600" file="rolling_rd_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="rolling_rd_detector_EB0" lane="144267617#4.122_0" pos="-10" freq="3600" file="rolling_rd_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="rolling_rd_detector_EB1" lane="144267617#4.122_1" pos="-10" freq="3600" file="rolling_rd_Detector_results_hourly.xml" friendlyPos="true"/>
+   <inductionLoop id="rolling_rd_detector_EB2" lane="144267617#4.122_2" pos="-10" freq="3600" file="rolling_rd_Detector_results_hourly.xml" friendlyPos="true"/>
+   
+   <instantInductionLoop id="rolling_rd_detector_WB0" lane="171719498#1.56_0" pos="-10" file="rolling_rd_WBT0_idetector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop id="rolling_rd_detector_WB1" lane="171719498#1.56_1" pos="-10" file="rolling_rd_WBT1_idetector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop id="rolling_rd_detector_WB2" lane="171719498#1.56_2" pos="-10" file="rolling_rd_WBR_idetector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop id="rolling_rd_detector_NB0" lane="590855759#9_0" pos="-10" file="rolling_rd_NBLR_idetector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop id="rolling_rd_detector_NB1" lane="590855759#9_1" pos="-10" file="rolling_rd_NBL_idetector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop id="rolling_rd_detector_EB0" lane="144267617#4.122_0" pos="-10" file="rolling_rd_EBT0_idetector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop id="rolling_rd_detector_EB1" lane="144267617#4.122_1" pos="-10" file="rolling_rd_EBT1_idetector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop id="rolling_rd_detector_EB2" lane="144267617#4.122_2" pos="-10" file="rolling_rd_EBR_idetector_results.xml" friendlyPos="true"/>
+</additional>

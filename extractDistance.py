@@ -1,11 +1,12 @@
 import xml.etree.ElementTree as ET
 import pprint
+import os
 
 am_time_end = 10800
 ampm_time_end = 32400
 pm_time_end = 46800
 
-basepath='C:/Users/Jon/OneDrive/Documents/Project1SUMO/detectors/'
+basepath=os.path.dirname(os.path.abspath(__file__))+'/detectors/'
 files=['twinbrook_EB0_Detector_results.xml',
        'twinbrook_EB1_Detector_results.xml',
        'twinbrook_EB2_Detector_results.xml',
