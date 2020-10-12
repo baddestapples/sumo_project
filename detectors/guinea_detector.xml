@@ -17,4 +17,24 @@
    <inductionLoop id="guinea_detector_SB0" lane="131360790#0_0" pos="-10" freq="3600" file="guinea_Detector_results_hourly.xml" friendlyPos="true"/>
    <inductionLoop id="guinea_detector_SB1" lane="131360790#0_1" pos="-10" freq="3600" file="guinea_Detector_results_hourly.xml" friendlyPos="true"/>
    <inductionLoop id="guinea_detector_SB2" lane="131360790#0_2" pos="-10" freq="3600" file="guinea_Detector_results_hourly.xml" friendlyPos="true"/>
+
+
+   <instantInductionLoop id="guinea_idetector_EB3" lane="590855741#4.91_0" pos="-10" file="guinea_idetector_EB3.xml" friendlyPos="true"/>
+   <instantInductionLoop id="guinea_idetector_EB2" lane="590855741#4.91_1" pos="-10" file="guinea_idetector_EB2.xml" friendlyPos="true"/>
+   <instantInductionLoop id="guinea_idetector_EB1" lane="590855741#4.91_2" pos="-10" file="guinea_idetector_EB1.xml" friendlyPos="true"/>
+   <instantInductionLoop id="guinea_idetector_EB0" lane="590855741#4.91_3" pos="-10" file="guinea_idetector_EB0.xml" friendlyPos="true"/>
+
+   <instantInductionLoop id="guinea_idetector_WB0" lane="171719506#3.58_0" pos="-10" file="guinea_idetector_WB0.xml" friendlyPos="true"/>
+   <instantInductionLoop id="guinea_idetector_WB1" lane="171719506#3.58_1" pos="-10" file="guinea_idetector_WB1.xml" friendlyPos="true"/>
+   <instantInductionLoop id="guinea_idetector_WB2" lane="171719506#3.58_2" pos="-10" file="guinea_idetector_WB2.xml" friendlyPos="true"/>
+   <instantInductionLoop id="guinea_idetector_WB3" lane="171719506#3.58_3" pos="-10" file="guinea_idetector_WB3.xml" friendlyPos="true"/>
+
+   <instantInductionLoop id="guinea_idetector_NB0" lane="117274079#1_3" pos="-10" file="guinea_idetector_NB0.xml" friendlyPos="true"/>
+   <instantInductionLoop id="guinea_idetector_NB1" lane="117274079#1_2" pos="-10" file="guinea_idetector_NB1.xml" friendlyPos="true"/>
+   <instantInductionLoop id="guinea_idetector_NB2" lane="117274079#1_1" pos="-10" file="guinea_idetector_NB2.xml" friendlyPos="true"/>
+   <instantInductionLoop id="guinea_idetector_NB3" lane="117274079#1_0" pos="-10" file="guinea_idetector_NB3.xml" friendlyPos="true"/>
+
+   <instantInductionLoop id="guinea_idetector_SB0" lane="131360790#0_0" pos="-10" file="guinea_idetector_SB0.xml" friendlyPos="true"/>
+   <instantInductionLoop id="guinea_idetector_SB1" lane="131360790#0_1" pos="-10" file="guinea_idetector_SB1.xml" friendlyPos="true"/>
+   <instantInductionLoop id="guinea_idetector_SB2" lane="131360790#0_2" pos="-10" file="guinea_idetector_SB2.xml" friendlyPos="true"/>
 </additional>
