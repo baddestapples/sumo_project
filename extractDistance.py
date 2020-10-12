@@ -67,7 +67,7 @@ for period in results:
     for sensor in period_dict:
         sensor_dict = period_dict[sensor]
         sum_distance = sum(sensor_dict['distance'])
-        avg_distance = sum_distance / sensor_dict['count']
+        avg_distance = sum_distance / max(1,(sensor_dict['count'] - 1))
         period_dict[sensor] = avg_distance
 
 pp = pprint.PrettyPrinter(depth=6)
