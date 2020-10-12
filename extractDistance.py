@@ -23,8 +23,17 @@ for filename in files:
     filepath=basepath + filename
     tree = ET.parse(filepath)
     root = tree.getroot()
-    for child in root:
-        if('gap' in child.attrib.keys()):      
+    skip = True
+    prev_gap = None
+    for child in root:        
+        if('gap' in child.attrib.keys()):
+            gap = float(child.attrib['gap'])
+
+            if skip:
+                skip = False
+                prev_gap = gap
+                continue
+            
             id = child.attrib['id']
             time = float(child.attrib['time'])
             period = ''
@@ -47,11 +56,11 @@ for filename in files:
                               
             period_dict[id]['count'] = period_dict[id]['count'] + 1
             speed = float(child.attrib['speed'])
-            gap = float(child.attrib['gap'])
             # the front of the car enters so we need to subtract the length of the
             # car to get the actual distance between cars
             length = float(child.attrib['length'])
-            period_dict[id]['distance'].append(speed * gap - length)
+            period_dict[id]['distance'].append(speed * prev_gap - length)
+            prev_gap = gap
 
 for period in results:
     period_dict = results[period]
@@ -59,7 +68,7 @@ for period in results:
         sensor_dict = period_dict[sensor]
         sum_distance = sum(sensor_dict['distance'])
         avg_distance = sum_distance / sensor_dict['count']
-        sensor_dict['distance'] = avg_distance
+        period_dict[sensor] = avg_distance
 
 pp = pprint.PrettyPrinter(depth=6)
 pp.pprint(results)
