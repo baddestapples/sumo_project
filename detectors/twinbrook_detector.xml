@@ -3,13 +3,21 @@
    <inductionLoop id="twinbrook_detector_EB2" lane="590855737#2.97_1" pos="-10" freq="3600" file="twinbrook_Detector_results_hourly.xml" friendlyPos="true"/>
    <inductionLoop id="twinbrook_detector_EB1" lane="590855737#2.97_2" pos="-10" freq="3600" file="twinbrook_Detector_results_hourly.xml" friendlyPos="true"/>
    <inductionLoop id="twinbrook_detector_EB0" lane="590855737#2.97_3" pos="-10" freq="3600" file="twinbrook_Detector_results_hourly.xml" friendlyPos="true"/>
-
    <inductionLoop id="twinbrook_detector_WB0" lane="590855742#3.305_0" pos="-10" freq="3600" file="twinbrook_Detector_results_hourly.xml" friendlyPos="true"/>
    <inductionLoop id="twinbrook_detector_WB1" lane="590855742#3.305_1" pos="-10" freq="3600" file="twinbrook_Detector_results_hourly.xml" friendlyPos="true"/>
    <inductionLoop id="twinbrook_detector_WB2" lane="590855742#3.305_2" pos="-10" freq="3600" file="twinbrook_Detector_results_hourly.xml" friendlyPos="true"/>
-
    <inductionLoop id="twinbrook_detector_NB0" lane="-590855714#1_0" pos="-10" freq="3600" file="twinbrook_Detector_results_hourly.xml" friendlyPos="true"/>
    <inductionLoop id="twinbrook_detector_NB1" lane="-590855714#1_1" pos="-10" freq="3600" file="twinbrook_Detector_results_hourly.xml" friendlyPos="true"/>
-
    <inductionLoop id="twinbrook_detector_SB0" lane="8832625#3_0" pos="-10" freq="3600" file="twinbrook_Detector_results_hourly.xml" friendlyPos="true"/>
+   
+   <instantInductionLoop  id="twinbrook_idetector_EB3" lane="590855737#2.97_0" pos="-10" file="twinbrook_EB3_Detector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop  id="twinbrook_idetector_EB2" lane="590855737#2.97_1" pos="-10" file="twinbrook_EB2_Detector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop  id="twinbrook_idetector_EB1" lane="590855737#2.97_2" pos="-10" file="twinbrook_EB1_Detector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop  id="twinbrook_idetector_EB0" lane="590855737#2.97_3" pos="-10" file="twinbrook_EB0_Detector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop  id="twinbrook_idetector_WB0" lane="590855742#3.305_0" pos="-10" file="twinbrook_WB0_Detector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop  id="twinbrook_idetector_WB1" lane="590855742#3.305_1" pos="-10" file="twinbrook_WB1_Detector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop  id="twinbrook_idetector_WB2" lane="590855742#3.305_2" pos="-10" file="twinbrook_WB2_Detector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop  id="twinbrook_idetector_NB0" lane="-590855714#1_0" pos="-10" file="twinbrook_NB0_Detector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop  id="twinbrook_idetector_NB1" lane="-590855714#1_1" pos="-10" file="twinbrook_NB1_Detector_results.xml" friendlyPos="true"/>
+   <instantInductionLoop  id="twinbrook_idetector_SB0" lane="8832625#3_0" pos="-10" file="twinbrook_SB0_Detector_results.xml" friendlyPos="true"/>
 </additional>
