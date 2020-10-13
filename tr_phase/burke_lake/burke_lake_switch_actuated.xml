@@ -2,7 +2,7 @@
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
    <!--randomly decreased-->
-   <tlLogic id="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" type="actuated" programID="150pm" offset="0">                                                 grrrrgrrrrrGGrrrrrrr
+   <tlLogic id="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" type="actuated" programID="150pm" offset="0">
         <phase duration="14.40" minDur="12" maxDur="17" state="grrrrgrrGGGrrrrrrrGG"/>
         <phase duration="4"                             state="grrrrgrrGGGrrrrrrryy"/>
         <phase duration="5.60"                          state="grrrrgrrGGGrrrrrrrrr"/>
@@ -47,7 +47,7 @@
         <phase duration="11.40" minDur="8" maxDur="14" state="grrrrgrrGGGrrrrrrrGG"/>
         <phase duration="4" state="grrrrgrrGGGrrrrrrryy"/>
         <phase duration="5.60" state="grrrrgrrGGGrrrrrrrrr"/>
-        <phase duration="9.70" minDur="" maxDur="" state="grrrrgGGGGGrrrrrrrrr"/>
+        <phase duration="9.70" state="grrrrgGGGGGrrrrrrrrr"/>
         <phase duration="3.90" state="grrrrgGGyyyrrrrrrrrr"/>
         <phase duration="5.40" state="grrrrgGGrrrrrrrrrrrr"/>
         <phase duration="76.90" minDur="60" maxDur="85" state="grrrrgGGrrrrrrrrGGrr"/>
