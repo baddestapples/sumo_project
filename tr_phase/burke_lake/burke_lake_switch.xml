@@ -3,45 +3,64 @@
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
    <!--randomly decreased-->
    <tlLogic id="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" type="static" programID="150pm" offset="0">
-        <phase duration="10.7" state="grrgrrGGggrrrrG"/>
-        <phase duration="4.30"  state="grrgrryyggrrrrG"/>
-        <phase duration="3"  state="grrgrrrrggrrrrG"/>
-        <phase duration="9.70"  state="grrgrrrrggrrGGG"/>
-        <phase duration="4.30"  state="grrgrrrrggrrGGy"/>
-        <phase duration="3"  state="grrgrrrrggrrGGr"/>
-        <phase duration="80.7" state="grrgGGrrggrrGGr"/>
-        <phase duration="4.30"  state="grrgyyrrggrryyr"/>
-        <phase duration="3"  state="grrgrrrrggrrrrr"/>
-        <phase duration="19.60" state="gGrgrrrrggGrrrr"/>
-        <phase duration="4.70"  state="gyrgrrrrggyrrrr"/>
-        <phase duration="2.70"  state="grrgrrrrggrrrrr"/>
-    </tlLogic><tlLogic id="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" type="static" programID="170am" offset="0">
-        <phase duration="10.70" state="grrgrrGGggrrrrG"/>
-        <phase duration="4.30"  state="grrgrryyggrrrrG"/>
-        <phase duration="3"  state="grrgrrrrggrrrrG"/>
-        <phase duration="9.70"  state="grrgrrrrggrrGGG"/>
-        <phase duration="4.30"  state="grrgrrrrggrrGGy"/>
-        <phase duration="3"  state="grrgrrrrggrrGGr"/>
-        <phase duration="100.70" state="grrgGGrrggrrGGr"/>
-        <phase duration="4.30"  state="grrgyyrrggrryyr"/>
-        <phase duration="3"  state="grrgrrrrggrrrrr"/>
-        <phase duration="19.60" state="gGrgrrrrggGrrrr"/>
-        <phase duration="4.70"  state="gyrgrrrrggyrrrr"/>
-        <phase duration="2.70"  state="grrgrrrrggrrrrr"/>
+        <phase duration="14.40" state="grrrrgrrGGGrrrrrrrGG"/>
+        <phase duration="4"     state="grrrrgrrGGGrrrrrrryy"/>
+        <phase duration="5.60"  state="grrrrgrrGGGrrrrrrrrr"/>
+        <phase duration="24.70" state="grrrrgGGGGGrrrrrrrrr"/>
+        <phase duration="3.90"  state="grrrrgGGyyyrrrrrrrrr"/>
+        <phase duration="5.40"  state="grrrrgGGrrrrrrrrrrrr"/>
+        <phase duration="38.90" state="grrrrgGGrrrrrrrrGGrr"/>
+        <phase duration="0.30"  state="grrrrgyyrrrrrrrrGGrr"/>
+        <phase duration="4.60"  state="grrrrgyyrrrrrrrryyrr"/>
+        <phase duration="0.20"  state="grrrrgrrrrrrrrrryyrr"/>
+        <phase duration="1"     state="grrrrgrrrrrrrrrrrrrr"/>
+        <phase duration="18.80" state="gGGGGgrrrrrrrrrrrrrr"/>
+        <phase duration="3.10"  state="gyyyygrrrrrrrrrrrrrr"/>
+        <phase duration="3.10"  state="grrrrgrrrrrrrrrrrrrr"/>
+        <phase duration="14.50" state="grrrrgrrrrrGGGGGrrrr"/>
+        <phase duration="4.40"  state="grrrrgrrrrryyyyyrrrr"/>
+        <phase duration="3.10"  state="grrrrgrrrrrrrrrrrrrr"/>
+    </tlLogic>
+	<tlLogic id="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" type="static" programID="170am" offset="0">
+        <phase duration="9.40"  state="grrrrgrrGGGrrrrrrrGG"/>
+        <phase duration="4"     state="grrrrgrrGGGrrrrrrryy"/>
+        <phase duration="5.60"  state="grrrrgrrGGGrrrrrrrrr"/>
+        <phase duration="13.70" state="grrrrgGGGGGrrrrrrrrr"/>
+        <phase duration="3.90"  state="grrrrgGGyyyrrrrrrrrr"/>
+        <phase duration="5.40"  state="grrrrgGGrrrrrrrrrrrr"/>
+        <phase duration="55.90" state="grrrrgGGrrrrrrrrGGrr"/>
+        <phase duration="4.90"  state="grrrrgGGrrrrrrrryyrr"/>
+        <phase duration="1.20"  state="grrrrgGGrrrrrrrrrrrr"/>
+        <phase duration="9.70"  state="grrrrgGGGGGrrrrrrrrr"/>
+        <phase duration="3.50"  state="grrrrgGGyyyrrrrrrrrr"/>
+        <phase duration="0.40"  state="grrrrgyyyyyrrrrrrrrr"/>
+        <phase duration="4.40"  state="grrrrgyyrrrrrrrrrrrr"/>
+        <phase duration="1"     state="grrrrgrrrrrrrrrrrrrr"/>
+        <phase duration="21.80" state="gGGGGgrrrrrrrrrrrrrr"/>
+        <phase duration="3.10"  state="gyyyygrrrrrrrrrrrrrr"/>
+        <phase duration="3.10"  state="grrrrgrrrrrrrrrrrrrr"/>
+        <phase duration="11.50" state="grrrrgrrrrrGGGGGrrrr"/>
+        <phase duration="4.40"  state="grrrrgrrrrryyyyyrrrr"/>
+        <phase duration="3.10"  state="grrrrgrrrrrrrrrrrrrr"/>
 	<!--randomly increased-->
     </tlLogic><tlLogic id="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" type="static" programID="190ampm" offset="0">
-        <phase duration="15.70" state="grrgrrGGggrrrrG"/>
-        <phase duration="4.30"  state="grrgrryyggrrrrG"/>
-        <phase duration="3"  state="grrgrrrrggrrrrG"/>
-        <phase duration="9.70"  state="grrgrrrrggrrGGG"/>
-        <phase duration="4.30"  state="grrgrrrrggrrGGy"/>
-        <phase duration="3"  state="grrgrrrrggrrGGr"/>
-        <phase duration="110.70" state="grrgGGrrggrrGGr"/>
-        <phase duration="4.30"  state="grrgyyrrggrryyr"/>
-        <phase duration="3"  state="grrgrrrrggrrrrr"/>
-        <phase duration="24.60" state="gGrgrrrrggGrrrr"/>
-        <phase duration="4.70"  state="gyrgrrrrggyrrrr"/>
-        <phase duration="2.70"  state="grrgrrrrggrrrrr"/>
+        <phase duration="11.40" state="grrrrgrrGGGrrrrrrrGG"/>
+        <phase duration="4"     state="grrrrgrrGGGrrrrrrryy"/>
+        <phase duration="5.60"  state="grrrrgrrGGGrrrrrrrrr"/>
+        <phase duration="9.70"  state="grrrrgGGGGGrrrrrrrrr"/>
+        <phase duration="3.90"  state="grrrrgGGyyyrrrrrrrrr"/>
+        <phase duration="5.40"  state="grrrrgGGrrrrrrrrrrrr"/>
+        <phase duration="76.90" state="grrrrgGGrrrrrrrrGGrr"/>
+        <phase duration="0.30"  state="grrrrgyyrrrrrrrrGGrr"/>
+        <phase duration="4.60"  state="grrrrgyyrrrrrrrryyrr"/>
+        <phase duration="0.20"  state="grrrrgrrrrrrrrrryyrr"/>
+        <phase duration="1"     state="grrrrgrrrrrrrrrrrrrr"/>
+        <phase duration="25.80" state="gGGGGgrrrrrrrrrrrrrr"/>
+        <phase duration="3.10"  state="gyyyygrrrrrrrrrrrrrr"/>
+        <phase duration="3.10"  state="grrrrgrrrrrrrrrrrrrr"/>
+        <phase duration="27.50" state="grrrrgrrrrrGGGGGrrrr"/>
+        <phase duration="4.40"  state="grrrrgrrrrryyyyyrrrr"/>
+        <phase duration="3.10"  state="grrrrgrrrrrrrrrrrrrr"/>
     </tlLogic>
 	<WAUT startProg="170am" refTime="0" id="burkeWaut">
 		<wautSwitch to="190ampm" time="10800"></wautSwitch>

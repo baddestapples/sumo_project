@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 10/12/20 19:17:18 by Eclipse SUMO netedit Version 1.7.0
+<!-- generated on 10/12/20 22:18:54 by Eclipse SUMO netedit Version 1.7.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="C:\Users\anike\Desktop\Education\George%20Mason%20University\Sem%204-Fall%20-%202020\CS%20695%20-%20Connected%20Autonomous%20Vehicles\Projects\1st%20mini%20project\Git_Repo\sumo_project\braddock.net.xml"/>
+        <sumo-net-file value="C:\Users\putta\Google%20Drive\career\GMU\Courses\3rd%20Sem\CS%20695%20001%20-%20CAV\Assignment\Assignment%201\sumo_project\.\braddock.net.xml"/>
     </input>
 
     <output>
-        <output-file value="C:\Users\anike\Desktop\Education\George%20Mason%20University\Sem%204-Fall%20-%202020\CS%20695%20-%20Connected%20Autonomous%20Vehicles\Projects\1st%20mini%20project\Git_Repo\sumo_project\braddock.net.xml"/>
+        <output-file value="C:\Users\putta\Google%20Drive\career\GMU\Courses\3rd%20Sem\CS%20695%20001%20-%20CAV\Assignment\Assignment%201\sumo_project\.\braddock.net.xml"/>
     </output>
 
     <processing>
@@ -8657,42 +8657,64 @@
         <lane id=":burke_lake_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.65" length="45.69" shape="5146.63,792.50 5140.99,785.21 5132.35,780.31 5120.71,777.80 5106.08,777.68"/>
     </edge>
     <edge id=":burke_lake_1" function="internal">
-        <lane id=":burke_lake_1_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="20.84" length="58.19" shape="5146.63,792.50 5139.58,783.06 5127.78,770.57 5115.38,758.55 5106.53,750.50"/>
-    </edge>
-    <edge id=":burke_lake_2" function="internal">
-        <lane id=":burke_lake_2_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="11.85" length="42.49" shape="5149.68,791.43 5145.41,779.48 5145.48,769.59 5150.62,762.71 5161.56,759.77"/>
+        <lane id=":burke_lake_1_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="20.84" length="59.02" shape="5146.63,792.50 5139.58,783.06 5127.78,770.57 5115.38,758.55 5106.53,750.50"/>
+        <lane id=":burke_lake_1_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="20.84" length="59.02" shape="5149.68,791.43 5142.48,781.78 5130.35,768.82 5117.62,756.33 5108.62,748.07"/>
     </edge>
     <edge id=":burke_lake_3" function="internal">
-        <lane id=":burke_lake_3_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="6.55" length="11.24" shape="5162.46,779.38 5159.96,780.02 5158.59,781.69 5158.36,784.37 5159.27,788.07"/>
+        <lane id=":burke_lake_3_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="11.85" length="42.49" shape="5149.68,791.43 5145.41,779.48 5145.48,769.59 5150.62,762.71 5161.56,759.77"/>
     </edge>
     <edge id=":burke_lake_4" function="internal">
-        <lane id=":burke_lake_4_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="20.12" length="56.29" shape="5162.32,776.19 5106.08,777.68"/>
-        <lane id=":burke_lake_4_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="20.12" length="56.29" shape="5162.17,772.99 5105.87,774.49"/>
+        <lane id=":burke_lake_4_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="5.83" length="12.32" shape="5149.68,791.43 5150.81,786.99 5152.79,784.95 5155.61,785.31 5157.25,786.55"/>
+    </edge>
+    <edge id=":burke_lake_20" function="internal">
+        <lane id=":burke_lake_20_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="5.83" length="2.53" shape="5157.25,786.55 5159.27,788.07"/>
+    </edge>
+    <edge id=":burke_lake_5" function="internal">
+        <lane id=":burke_lake_5_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="6.55" length="11.24" shape="5162.46,779.38 5159.96,780.02 5158.59,781.69 5158.36,784.37 5159.27,788.07"/>
     </edge>
     <edge id=":burke_lake_6" function="internal">
-        <lane id=":burke_lake_6_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="23.95" length="59.83" shape="5162.02,769.79 5143.88,768.15 5127.76,762.99 5114.89,756.41 5106.53,750.50"/>
-    </edge>
-    <edge id=":burke_lake_7" function="internal">
-        <lane id=":burke_lake_7_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="23.95" length="57.50" shape="5161.87,766.60 5144.08,765.07 5128.73,760.18 5116.63,753.86 5108.62,748.07"/>
+        <lane id=":burke_lake_6_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="20.12" length="56.29" shape="5162.32,776.19 5106.08,777.68"/>
+        <lane id=":burke_lake_6_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="20.12" length="56.29" shape="5162.17,772.99 5105.87,774.49"/>
     </edge>
     <edge id=":burke_lake_8" function="internal">
-        <lane id=":burke_lake_8_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="23.68" length="47.88" shape="5116.58,738.80 5126.34,745.20 5137.64,749.92 5149.59,752.73 5161.26,753.37"/>
+        <lane id=":burke_lake_8_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="23.95" length="59.83" shape="5162.02,769.79 5143.88,768.15 5127.76,762.99 5114.89,756.41 5106.53,750.50"/>
     </edge>
     <edge id=":burke_lake_9" function="internal">
-        <lane id=":burke_lake_9_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="23.95" length="50.21" shape="5114.49,741.23 5124.60,747.75 5136.68,752.73 5149.39,755.81 5161.41,756.57"/>
+        <lane id=":burke_lake_9_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="23.95" length="57.50" shape="5161.87,766.60 5144.08,765.07 5128.73,760.18 5116.63,753.86 5108.62,748.07"/>
     </edge>
     <edge id=":burke_lake_10" function="internal">
-        <lane id=":burke_lake_10_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="20.84" length="64.90" shape="5114.49,741.23 5126.14,751.91 5140.61,766.46 5153.21,780.10 5159.27,788.07"/>
+        <lane id=":burke_lake_10_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="4.85" length="4.99" shape="5161.87,766.60 5159.23,765.01 5158.30,763.34"/>
+    </edge>
+    <edge id=":burke_lake_21" function="internal">
+        <lane id=":burke_lake_21_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="4.85" length="4.99" shape="5158.30,763.34 5159.07,761.59 5161.56,759.77"/>
     </edge>
     <edge id=":burke_lake_11" function="internal">
-        <lane id=":burke_lake_11_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="10.61" length="41.76" shape="5112.41,743.66 5119.55,753.01 5120.76,762.81 5116.16,770.74 5105.87,774.49"/>
+        <lane id=":burke_lake_11_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="23.68" length="47.88" shape="5116.58,738.80 5126.34,745.20 5137.64,749.92 5149.59,752.73 5161.26,753.37"/>
     </edge>
     <edge id=":burke_lake_12" function="internal">
-        <lane id=":burke_lake_12_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="20.12" length="56.74" shape="5104.64,756.15 5161.41,756.57"/>
-        <lane id=":burke_lake_12_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="20.12" length="56.74" shape="5104.85,759.34 5161.56,759.77"/>
+        <lane id=":burke_lake_12_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="23.95" length="50.21" shape="5114.49,741.23 5124.60,747.75 5136.68,752.73 5149.39,755.81 5161.41,756.57"/>
+    </edge>
+    <edge id=":burke_lake_13" function="internal">
+        <lane id=":burke_lake_13_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="20.84" length="64.90" shape="5114.49,741.23 5126.14,751.91 5140.61,766.46 5153.21,780.10 5159.27,788.07"/>
     </edge>
     <edge id=":burke_lake_14" function="internal">
-        <lane id=":burke_lake_14_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="17.01" length="60.53" shape="5105.07,762.53 5116.97,765.42 5134.67,772.76 5151.12,781.37 5159.27,788.07"/>
+        <lane id=":burke_lake_14_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="10.61" length="41.76" shape="5112.41,743.66 5119.55,753.01 5120.76,762.81 5116.16,770.74 5105.87,774.49"/>
+    </edge>
+    <edge id=":burke_lake_15" function="internal">
+        <lane id=":burke_lake_15_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="4.55" length="8.49" shape="5112.41,743.66 5113.12,746.18 5112.72,747.76 5111.22,748.39 5108.62,748.07"/>
+    </edge>
+    <edge id=":burke_lake_16" function="internal">
+        <lane id=":burke_lake_16_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="20.12" length="56.74" shape="5104.64,756.15 5161.41,756.57"/>
+        <lane id=":burke_lake_16_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="20.12" length="56.74" shape="5104.85,759.34 5161.56,759.77"/>
+    </edge>
+    <edge id=":burke_lake_18" function="internal">
+        <lane id=":burke_lake_18_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="17.01" length="60.53" shape="5105.07,762.53 5116.97,765.42 5134.67,772.76 5151.12,781.37 5159.27,788.07"/>
+    </edge>
+    <edge id=":burke_lake_19" function="internal">
+        <lane id=":burke_lake_19_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="6.16" length="8.75" shape="5105.07,762.53 5109.75,765.22 5111.44,768.11"/>
+    </edge>
+    <edge id=":burke_lake_22" function="internal">
+        <lane id=":burke_lake_22_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="6.16" length="8.75" shape="5111.44,768.11 5110.15,771.20 5105.87,774.49"/>
     </edge>
     <edge id=":cluster_1259934461_1259934778_1709929489_1709929495_0" function="internal">
         <lane id=":cluster_1259934461_1259934778_1709929489_1709929495_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="13.89" length="9.52" shape="4709.49,573.90 4701.34,568.99"/>
@@ -13726,18 +13748,14 @@
         <phase duration="5"  state="rrryyyyrr"/>
     </tlLogic>
     <tlLogic id="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" type="static" programID="0" offset="0">
-        <phase duration="10.70" state="grrgrrGGggrrrrG"/>
-        <phase duration="4.30"  state="grrgrryyggrrrrG"/>
-        <phase duration="3"  state="grrgrrrrggrrrrG"/>
-        <phase duration="9.70"  state="grrgrrrrggrrGGG"/>
-        <phase duration="4.30"  state="grrgrrrrggrrGGy"/>
-        <phase duration="3"  state="grrgrrrrggrrGGr"/>
-        <phase duration="100.70" state="grrgGGrrggrrGGr"/>
-        <phase duration="4.30"  state="grrgyyrrggrryyr"/>
-        <phase duration="3"  state="grrgrrrrggrrrrr"/>
-        <phase duration="19.60" state="gGrgrrrrggGrrrr"/>
-        <phase duration="4.70"  state="gyrgrrrrggyrrrr"/>
-        <phase duration="2.70"  state="grrgrrrrggrrrrr"/>
+        <phase duration="15" state="rrrrrGGGGGgGGrrrrrrr"/>
+        <phase duration="6"  state="rrrrryyyyyyyyrrrrrrr"/>
+        <phase duration="17" state="rrrrrrrrrrrGGGGGrrrr"/>
+        <phase duration="6"  state="rrrrrrrrrrryyyyyrrrr"/>
+        <phase duration="17" state="GrrrrrrrrrrrrrrGGGGg"/>
+        <phase duration="6"  state="yrrrrrrrrrrrrrryyyyy"/>
+        <phase duration="17" state="GGGgGGrrrrrrrrrrrrrr"/>
+        <phase duration="6"  state="yyyyyyrrrrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="cluster_1445912501_1446759518_63641183_660058509" type="actuated" programID="0" offset="0">
         <phase duration="15" state="GrrrrrrrrrrrrGGGGg" minDur="7" maxDur="50"/>
@@ -17118,22 +17136,27 @@
         <request index="0" response="00" foes="00" cont="0"/>
         <request index="1" response="00" foes="00" cont="0"/>
     </junction>
-    <junction id="burke_lake" type="traffic_light" x="5140.30" y="773.14" incLanes="117289053#0_0 117289053#0_1 171719521#2_0 171719521#2_1 171719521#2_2 171719521#2_3 171719521#2_4 117289064#6_0 117289064#6_1 117289064#6_2 171719519#6_0 171719519#6_1 171719519#6_2" intLanes=":burke_lake_0_0 :burke_lake_1_0 :burke_lake_2_0 :burke_lake_3_0 :burke_lake_4_0 :burke_lake_4_1 :burke_lake_6_0 :burke_lake_7_0 :burke_lake_8_0 :burke_lake_9_0 :burke_lake_10_0 :burke_lake_11_0 :burke_lake_12_0 :burke_lake_12_1 :burke_lake_14_0" shape="5145.11,793.03 5160.78,787.54 5160.21,785.58 5159.98,783.97 5160.10,782.71 5160.57,781.79 5161.38,781.21 5162.54,780.98 5161.19,751.77 5151.24,752.10 5143.65,751.80 5137.46,750.54 5131.69,747.97 5125.40,743.77 5117.62,737.59 5105.49,751.71 5106.73,753.19 5106.77,753.73 5106.42,754.13 5105.67,754.41 5104.53,754.55 5106.19,779.28 5115.93,779.08 5124.37,779.88 5131.51,781.67 5137.35,784.46 5141.88,788.25">
-        <request index="0"  response="000000000110000" foes="000000000110000" cont="0"/>
-        <request index="1"  response="111100011110000" foes="111100011110000" cont="0"/>
-        <request index="2"  response="111010011110000" foes="111010011110000" cont="0"/>
-        <request index="3"  response="000000000000000" foes="100010000000000" cont="0"/>
-        <request index="4"  response="000000000000000" foes="100110000000111" cont="0"/>
-        <request index="5"  response="000000000000000" foes="100110000000111" cont="0"/>
-        <request index="6"  response="000000000000000" foes="011110000000110" cont="0"/>
-        <request index="7"  response="000000000000000" foes="011110000000110" cont="0"/>
-        <request index="8"  response="000000000000000" foes="011000000000000" cont="0"/>
-        <request index="9"  response="000000000000000" foes="011000000000000" cont="0"/>
-        <request index="10" response="000000011111000" foes="111000011111100" cont="0"/>
-        <request index="11" response="000000011110000" foes="111000011110010" cont="0"/>
-        <request index="12" response="000111111000000" foes="000111111000110" cont="0"/>
-        <request index="13" response="000111111000000" foes="000111111000110" cont="0"/>
-        <request index="14" response="000110000111000" foes="000110000111110" cont="0"/>
+    <junction id="burke_lake" type="traffic_light" x="5140.30" y="773.14" incLanes="117289053#0_0 117289053#0_1 171719521#2_0 171719521#2_1 171719521#2_2 171719521#2_3 171719521#2_4 117289064#6_0 117289064#6_1 117289064#6_2 171719519#6_0 171719519#6_1 171719519#6_2" intLanes=":burke_lake_0_0 :burke_lake_1_0 :burke_lake_1_1 :burke_lake_3_0 :burke_lake_20_0 :burke_lake_5_0 :burke_lake_6_0 :burke_lake_6_1 :burke_lake_8_0 :burke_lake_9_0 :burke_lake_21_0 :burke_lake_11_0 :burke_lake_12_0 :burke_lake_13_0 :burke_lake_14_0 :burke_lake_15_0 :burke_lake_16_0 :burke_lake_16_1 :burke_lake_18_0 :burke_lake_22_0" shape="5145.11,793.03 5160.78,787.54 5160.21,785.58 5159.98,783.97 5160.10,782.71 5160.57,781.79 5161.38,781.21 5162.54,780.98 5161.19,751.77 5151.24,752.10 5143.65,751.80 5137.46,750.54 5131.69,747.97 5125.40,743.77 5117.62,737.59 5105.49,751.71 5106.73,753.19 5106.77,753.73 5106.42,754.13 5105.67,754.41 5104.53,754.55 5106.19,779.28 5115.93,779.08 5124.37,779.88 5131.51,781.67 5137.35,784.46 5141.88,788.25">
+        <request index="0"  response="00000000000011000000" foes="00000000000011000000" cont="0"/>
+        <request index="1"  response="01110100001111000000" foes="01111100001111000000" cont="0"/>
+        <request index="2"  response="01110100001111000000" foes="01111100001111000000" cont="0"/>
+        <request index="3"  response="01110010001111000000" foes="01110010011111000000" cont="0"/>
+        <request index="4"  response="01000010000000100000" foes="01000010000000100000" cont="1"/>
+        <request index="5"  response="00000000000000000000" foes="01000010000000010000" cont="0"/>
+        <request index="6"  response="00000000000000000000" foes="11000110000000001111" cont="0"/>
+        <request index="7"  response="00000000000000000000" foes="11000110000000001111" cont="0"/>
+        <request index="8"  response="00000000000000000000" foes="00111110000000001110" cont="0"/>
+        <request index="9"  response="00000000000000000000" foes="00111110000000001110" cont="0"/>
+        <request index="10" response="00110000000000001000" foes="00110000000000001000" cont="1"/>
+        <request index="11" response="00000000000000000000" foes="00110000000000000000" cont="0"/>
+        <request index="12" response="00000000000000000000" foes="00110000000000000000" cont="0"/>
+        <request index="13" response="00000000001111100000" foes="01110000001111111000" cont="0"/>
+        <request index="14" response="00000000001111000000" foes="11110000001111000110" cont="0"/>
+        <request index="15" response="00000000001100000110" foes="00000000001100000110" cont="0"/>
+        <request index="16" response="00000111101100000000" foes="00000111111100001110" cont="0"/>
+        <request index="17" response="00000111101100000000" foes="00000111111100001110" cont="0"/>
+        <request index="18" response="00000110000011100000" foes="00000110000011111110" cont="0"/>
+        <request index="19" response="00000100000011000000" foes="00000100000011000000" cont="1"/>
     </junction>
     <junction id="cluster_1259934461_1259934778_1709929489_1709929495" type="priority" x="4712.30" y="563.16" incLanes="8822095#1_0 -110295219#3_0 110295244#7_0 110295219#1_0 -8822095#3_0" intLanes=":cluster_1259934461_1259934778_1709929489_1709929495_0_0 :cluster_1259934461_1259934778_1709929489_1709929495_1_0 :cluster_1259934461_1259934778_1709929489_1709929495_25_0 :cluster_1259934461_1259934778_1709929489_1709929495_26_0 :cluster_1259934461_1259934778_1709929489_1709929495_27_0 :cluster_1259934461_1259934778_1709929489_1709929495_5_0 :cluster_1259934461_1259934778_1709929489_1709929495_6_0 :cluster_1259934461_1259934778_1709929489_1709929495_7_0 :cluster_1259934461_1259934778_1709929489_1709929495_8_0 :cluster_1259934461_1259934778_1709929489_1709929495_9_0 :cluster_1259934461_1259934778_1709929489_1709929495_10_0 :cluster_1259934461_1259934778_1709929489_1709929495_11_0 :cluster_1259934461_1259934778_1709929489_1709929495_12_0 :cluster_1259934461_1259934778_1709929489_1709929495_13_0 :cluster_1259934461_1259934778_1709929489_1709929495_14_0 :cluster_1259934461_1259934778_1709929489_1709929495_15_0 :cluster_1259934461_1259934778_1709929489_1709929495_16_0 :cluster_1259934461_1259934778_1709929489_1709929495_17_0 :cluster_1259934461_1259934778_1709929489_1709929495_18_0 :cluster_1259934461_1259934778_1709929489_1709929495_19_0 :cluster_1259934461_1259934778_1709929489_1709929495_20_0 :cluster_1259934461_1259934778_1709929489_1709929495_21_0 :cluster_1259934461_1259934778_1709929489_1709929495_22_0 :cluster_1259934461_1259934778_1709929489_1709929495_23_0 :cluster_1259934461_1259934778_1709929489_1709929495_28_0" shape="4710.01,576.08 4720.01,553.53 4719.03,552.92 4718.75,552.56 4718.62,552.18 4718.62,551.77 4718.77,551.33 4713.00,548.55 4712.48,549.25 4712.16,549.45 4711.79,549.54 4711.38,549.54 4710.93,549.43 4699.57,569.84">
         <request index="0"  response="0000000000000000000000000" foes="1000001000001000001000000" cont="0"/>
@@ -18146,6 +18169,9 @@
     <junction id=":765895836_5_0" type="internal" x="5279.53" y="1608.33" incLanes=":765895836_3_0 8829294#0_0" intLanes=":765895836_0_0"/>
     <junction id=":767567577_4_0" type="internal" x="5187.21" y="1682.71" incLanes=":767567577_1_0 -8819757#2_0" intLanes=":767567577_2_0"/>
     <junction id=":767567577_5_0" type="internal" x="5190.13" y="1682.62" incLanes=":767567577_3_0 8819757#1_0" intLanes=":767567577_0_0"/>
+    <junction id=":burke_lake_20_0" type="internal" x="5157.25" y="786.55" incLanes=":burke_lake_4_0 117289064#6_1 171719519#6_2 171719521#2_0" intLanes=":burke_lake_5_0 :burke_lake_13_0 :burke_lake_18_0"/>
+    <junction id=":burke_lake_21_0" type="internal" x="5158.30" y="763.34" incLanes=":burke_lake_10_0 117289053#0_1 117289064#6_0 117289064#6_1 171719519#6_0 171719519#6_1" intLanes=":burke_lake_3_0 :burke_lake_11_0 :burke_lake_12_0 :burke_lake_16_0 :burke_lake_16_1"/>
+    <junction id=":burke_lake_22_0" type="internal" x="5111.44" y="768.11" incLanes=":burke_lake_19_0 117289053#0_0 117289064#6_2 171719521#2_1 171719521#2_2" intLanes=":burke_lake_0_0 :burke_lake_6_0 :burke_lake_6_1 :burke_lake_14_0"/>
     <junction id=":cluster_1259934461_1259934778_1709929489_1709929495_25_0" type="internal" x="4707.80" y="571.01" incLanes=":cluster_1259934461_1259934778_1709929489_1709929495_2_0 -8822095#3_0" intLanes=":cluster_1259934461_1259934778_1709929489_1709929495_6_0 :cluster_1259934461_1259934778_1709929489_1709929495_7_0 :cluster_1259934461_1259934778_1709929489_1709929495_8_0 :cluster_1259934461_1259934778_1709929489_1709929495_12_0 :cluster_1259934461_1259934778_1709929489_1709929495_13_0 :cluster_1259934461_1259934778_1709929489_1709929495_14_0 :cluster_1259934461_1259934778_1709929489_1709929495_15_0 :cluster_1259934461_1259934778_1709929489_1709929495_16_0 :cluster_1259934461_1259934778_1709929489_1709929495_17_0 :cluster_1259934461_1259934778_1709929489_1709929495_21_0 :cluster_1259934461_1259934778_1709929489_1709929495_22_0 :cluster_1259934461_1259934778_1709929489_1709929495_23_0"/>
     <junction id=":cluster_1259934461_1259934778_1709929489_1709929495_26_0" type="internal" x="4711.72" y="569.63" incLanes=":cluster_1259934461_1259934778_1709929489_1709929495_3_0 -8822095#3_0" intLanes=":cluster_1259934461_1259934778_1709929489_1709929495_6_0 :cluster_1259934461_1259934778_1709929489_1709929495_7_0 :cluster_1259934461_1259934778_1709929489_1709929495_8_0 :cluster_1259934461_1259934778_1709929489_1709929495_9_0 :cluster_1259934461_1259934778_1709929489_1709929495_10_0 :cluster_1259934461_1259934778_1709929489_1709929495_11_0 :cluster_1259934461_1259934778_1709929489_1709929495_16_0 :cluster_1259934461_1259934778_1709929489_1709929495_17_0 :cluster_1259934461_1259934778_1709929489_1709929495_22_0 :cluster_1259934461_1259934778_1709929489_1709929495_23_0"/>
     <junction id=":cluster_1259934461_1259934778_1709929489_1709929495_27_0" type="internal" x="4708.90" y="571.67" incLanes=":cluster_1259934461_1259934778_1709929489_1709929495_4_0 -110295219#3_0 -8822095#3_0 110295219#1_0 110295244#7_0" intLanes=":cluster_1259934461_1259934778_1709929489_1709929495_5_0 :cluster_1259934461_1259934778_1709929489_1709929495_11_0 :cluster_1259934461_1259934778_1709929489_1709929495_17_0 :cluster_1259934461_1259934778_1709929489_1709929495_23_0"/>
@@ -19888,7 +19914,9 @@
     <connection from="117274088" to="117274076#7" fromLane="2" toLane="1" via=":cluster_1320865513_63664277_7_0" dir="t" state="m"/>
     <connection from="117289053#0" to="171719498#0" fromLane="0" toLane="0" via=":burke_lake_0_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="0" dir="r" state="o"/>
     <connection from="117289053#0" to="8828668#1" fromLane="0" toLane="0" via=":burke_lake_1_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="1" dir="s" state="o"/>
-    <connection from="117289053#0" to="171719502#0" fromLane="1" toLane="2" via=":burke_lake_2_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="2" dir="l" state="o"/>
+    <connection from="117289053#0" to="8828668#1" fromLane="1" toLane="1" via=":burke_lake_1_1" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="4" dir="s" state="o"/>
+    <connection from="117289053#0" to="171719502#0" fromLane="1" toLane="2" via=":burke_lake_3_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="2" dir="l" state="o"/>
+    <connection from="117289053#0" to="171719504#1" fromLane="1" toLane="0" via=":burke_lake_4_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="3" dir="t" state="o"/>
     <connection from="117289064#0" to="116948789#9" fromLane="0" toLane="0" via=":cluster_1709929474_1709929475_1709929479_1709929480_1709929482_1709929483_1709929485_63558203_9_0" dir="r" state="M"/>
     <connection from="117289064#0" to="117289064#5" fromLane="0" toLane="1" via=":cluster_1709929474_1709929475_1709929479_1709929480_1709929482_1709929483_1709929485_63558203_10_0" dir="s" state="M"/>
     <connection from="117289064#0" to="590855759#3" fromLane="0" toLane="1" via=":cluster_1709929474_1709929475_1709929479_1709929480_1709929482_1709929483_1709929485_63558203_11_0" dir="l" state="m"/>
@@ -19898,10 +19926,11 @@
     <connection from="117289064#5" to="117289064#6" fromLane="1" toLane="2" via=":cluster_2404393928_63833423_10_1" dir="s" state="M"/>
     <connection from="117289064#5" to="110295195#0" fromLane="1" toLane="0" via=":cluster_2404393928_63833423_12_0" dir="l" state="m"/>
     <connection from="117289064#5" to="8828668#3" fromLane="1" toLane="1" via=":cluster_2404393928_63833423_13_0" dir="t" state="m"/>
-    <connection from="117289064#6" to="171719502#0" fromLane="0" toLane="0" via=":burke_lake_8_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="8" dir="r" state="O"/>
-    <connection from="117289064#6" to="171719502#0" fromLane="1" toLane="1" via=":burke_lake_9_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="9" dir="r" state="O"/>
-    <connection from="117289064#6" to="171719504#1" fromLane="1" toLane="0" via=":burke_lake_10_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="10" dir="s" state="o"/>
-    <connection from="117289064#6" to="171719498#0" fromLane="2" toLane="1" via=":burke_lake_11_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="11" dir="l" state="o"/>
+    <connection from="117289064#6" to="171719502#0" fromLane="0" toLane="0" via=":burke_lake_11_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="11" dir="r" state="O"/>
+    <connection from="117289064#6" to="171719502#0" fromLane="1" toLane="1" via=":burke_lake_12_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="12" dir="r" state="O"/>
+    <connection from="117289064#6" to="171719504#1" fromLane="1" toLane="0" via=":burke_lake_13_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="13" dir="s" state="o"/>
+    <connection from="117289064#6" to="171719498#0" fromLane="2" toLane="1" via=":burke_lake_14_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="14" dir="l" state="o"/>
+    <connection from="117289064#6" to="8828668#1" fromLane="2" toLane="1" via=":burke_lake_15_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="15" dir="t" state="o"/>
     <connection from="131360790#0" to="590855742#0" fromLane="0" toLane="0" via=":guinea_rd_0_0" tl="guinea_rd" linkIndex="0" dir="r" state="O"/>
     <connection from="131360790#0" to="117274076#2" fromLane="1" toLane="1" via=":guinea_rd_1_0" tl="guinea_rd" linkIndex="1" dir="s" state="O"/>
     <connection from="131360790#0" to="144267617#0" fromLane="1" toLane="0" via=":guinea_rd_2_0" tl="guinea_rd" linkIndex="2" dir="l" state="o"/>
@@ -20200,20 +20229,22 @@
     <connection from="171719519#5" to="110295262#0" fromLane="0" toLane="0" via=":1259934683_2_0" dir="r" state="M"/>
     <connection from="171719519#5" to="171719519#6" fromLane="0" toLane="1" via=":1259934683_3_0" dir="s" state="M"/>
     <connection from="171719519#5" to="171719519#6" fromLane="1" toLane="2" via=":1259934683_3_1" dir="s" state="M"/>
-    <connection from="171719519#6" to="171719502#0" fromLane="0" toLane="1" via=":burke_lake_12_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="12" dir="s" state="o"/>
-    <connection from="171719519#6" to="171719502#0" fromLane="1" toLane="2" via=":burke_lake_12_1" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="13" dir="s" state="o"/>
-    <connection from="171719519#6" to="171719504#1" fromLane="2" toLane="0" via=":burke_lake_14_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="14" dir="l" state="o"/>
+    <connection from="171719519#6" to="171719502#0" fromLane="0" toLane="1" via=":burke_lake_16_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="16" dir="s" state="o"/>
+    <connection from="171719519#6" to="171719502#0" fromLane="1" toLane="2" via=":burke_lake_16_1" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="17" dir="s" state="o"/>
+    <connection from="171719519#6" to="171719504#1" fromLane="2" toLane="0" via=":burke_lake_18_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="18" dir="l" state="o"/>
+    <connection from="171719519#6" to="171719498#0" fromLane="2" toLane="1" via=":burke_lake_19_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="19" dir="t" state="o"/>
     <connection from="171719521#0" to="468928743#0" fromLane="0" toLane="0" via=":4633806856_2_0" dir="r" state="M"/>
     <connection from="171719521#0" to="171719521#2" fromLane="0" toLane="0" via=":4633806856_3_0" dir="s" state="M"/>
     <connection from="171719521#0" to="171719521#2" fromLane="1" toLane="1" via=":4633806856_3_1" dir="s" state="M"/>
     <connection from="171719521#0" to="171719521#2" fromLane="2" toLane="2" via=":4633806856_3_2" dir="s" state="M"/>
     <connection from="171719521#0" to="171719521#2" fromLane="3" toLane="3" via=":4633806856_3_3" dir="s" state="M"/>
     <connection from="171719521#0" to="171719521#2" fromLane="3" toLane="4" via=":4633806856_3_4" dir="s" state="M"/>
-    <connection from="171719521#2" to="171719504#1" fromLane="0" toLane="0" via=":burke_lake_3_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="3" dir="r" state="O"/>
-    <connection from="171719521#2" to="171719498#0" fromLane="1" toLane="0" via=":burke_lake_4_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="4" dir="s" state="O"/>
-    <connection from="171719521#2" to="171719498#0" fromLane="2" toLane="1" via=":burke_lake_4_1" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="5" dir="s" state="O"/>
-    <connection from="171719521#2" to="8828668#1" fromLane="3" toLane="0" via=":burke_lake_6_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="6" dir="L" state="O"/>
-    <connection from="171719521#2" to="8828668#1" fromLane="4" toLane="1" via=":burke_lake_7_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="7" dir="L" state="O"/>
+    <connection from="171719521#2" to="171719504#1" fromLane="0" toLane="0" via=":burke_lake_5_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="5" dir="r" state="O"/>
+    <connection from="171719521#2" to="171719498#0" fromLane="1" toLane="0" via=":burke_lake_6_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="6" dir="s" state="O"/>
+    <connection from="171719521#2" to="171719498#0" fromLane="2" toLane="1" via=":burke_lake_6_1" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="7" dir="s" state="O"/>
+    <connection from="171719521#2" to="8828668#1" fromLane="3" toLane="0" via=":burke_lake_8_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="8" dir="L" state="O"/>
+    <connection from="171719521#2" to="8828668#1" fromLane="4" toLane="1" via=":burke_lake_9_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="9" dir="L" state="O"/>
+    <connection from="171719521#2" to="171719502#0" fromLane="4" toLane="2" via=":burke_lake_10_0" tl="cluster_1320949025_1827068716_63640993_660058456_7127086042_7127086043" linkIndex="10" dir="t" state="o"/>
     <connection from="171721973" to="-171721973" fromLane="0" toLane="0" via=":64148713_0_0" dir="t" state="M"/>
     <connection from="171731098" to="-171731098" fromLane="0" toLane="0" via=":63708844_0_0" dir="t" state="M"/>
     <connection from="171731099#0" to="171731099#1" fromLane="0" toLane="0" via=":63757635_0_0" dir="s" state="M"/>
@@ -24088,19 +24119,27 @@
     <connection from=":8828668#2-AddedOnRampNode_0" to="8828668#2" fromLane="1" toLane="1" dir="s" state="M"/>
     <connection from=":burke_lake_0" to="171719498#0" fromLane="0" toLane="0" dir="r" state="M"/>
     <connection from=":burke_lake_1" to="8828668#1" fromLane="0" toLane="0" dir="s" state="M"/>
-    <connection from=":burke_lake_2" to="171719502#0" fromLane="0" toLane="2" dir="l" state="M"/>
-    <connection from=":burke_lake_3" to="171719504#1" fromLane="0" toLane="0" dir="r" state="M"/>
-    <connection from=":burke_lake_4" to="171719498#0" fromLane="0" toLane="0" dir="s" state="M"/>
-    <connection from=":burke_lake_4" to="171719498#0" fromLane="1" toLane="1" dir="s" state="M"/>
-    <connection from=":burke_lake_6" to="8828668#1" fromLane="0" toLane="0" dir="L" state="M"/>
-    <connection from=":burke_lake_7" to="8828668#1" fromLane="0" toLane="1" dir="L" state="M"/>
-    <connection from=":burke_lake_8" to="171719502#0" fromLane="0" toLane="0" dir="r" state="M"/>
-    <connection from=":burke_lake_9" to="171719502#0" fromLane="0" toLane="1" dir="r" state="M"/>
-    <connection from=":burke_lake_10" to="171719504#1" fromLane="0" toLane="0" dir="s" state="M"/>
-    <connection from=":burke_lake_11" to="171719498#0" fromLane="0" toLane="1" dir="l" state="M"/>
-    <connection from=":burke_lake_12" to="171719502#0" fromLane="0" toLane="1" dir="s" state="M"/>
-    <connection from=":burke_lake_12" to="171719502#0" fromLane="1" toLane="2" dir="s" state="M"/>
-    <connection from=":burke_lake_14" to="171719504#1" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":burke_lake_1" to="8828668#1" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":burke_lake_3" to="171719502#0" fromLane="0" toLane="2" dir="l" state="M"/>
+    <connection from=":burke_lake_4" to="171719504#1" fromLane="0" toLane="0" via=":burke_lake_20_0" dir="t" state="m"/>
+    <connection from=":burke_lake_20" to="171719504#1" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":burke_lake_5" to="171719504#1" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":burke_lake_6" to="171719498#0" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":burke_lake_6" to="171719498#0" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":burke_lake_8" to="8828668#1" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":burke_lake_9" to="8828668#1" fromLane="0" toLane="1" dir="L" state="M"/>
+    <connection from=":burke_lake_10" to="171719502#0" fromLane="0" toLane="2" via=":burke_lake_21_0" dir="t" state="m"/>
+    <connection from=":burke_lake_21" to="171719502#0" fromLane="0" toLane="2" dir="t" state="M"/>
+    <connection from=":burke_lake_11" to="171719502#0" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":burke_lake_12" to="171719502#0" fromLane="0" toLane="1" dir="r" state="M"/>
+    <connection from=":burke_lake_13" to="171719504#1" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":burke_lake_14" to="171719498#0" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":burke_lake_15" to="8828668#1" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":burke_lake_16" to="171719502#0" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":burke_lake_16" to="171719502#0" fromLane="1" toLane="2" dir="s" state="M"/>
+    <connection from=":burke_lake_18" to="171719504#1" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":burke_lake_19" to="171719498#0" fromLane="0" toLane="1" via=":burke_lake_22_0" dir="t" state="m"/>
+    <connection from=":burke_lake_22" to="171719498#0" fromLane="0" toLane="1" dir="t" state="M"/>
     <connection from=":cluster_1259934461_1259934778_1709929489_1709929495_0" to="8822095#3" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":cluster_1259934461_1259934778_1709929489_1709929495_1" to="-110295219#1" fromLane="0" toLane="0" dir="R" state="M"/>
     <connection from=":cluster_1259934461_1259934778_1709929489_1709929495_2" to="-110295244#7" fromLane="0" toLane="0" via=":cluster_1259934461_1259934778_1709929489_1709929495_25_0" dir="L" state="m"/>
