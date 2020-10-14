@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="cluster_1317288004_1709929511_1709929514_63558180_660058461" type="static" programID="150ampm" offset="82">
+        <phase duration="21.50" state="GGGgrrgrr"/>
+        <phase duration="5.20" state="GGygrrgrr"/>
+        <phase duration="3.30" state="GGrgrrgrr"/>
+        <phase duration="64.50" state="GGrgrrgGG"/>
+        <phase duration="5.20" state="yyrgrrgyy"/>
+        <phase duration="3.30" state="rrrgrrgrr"/>
+        <phase duration="38.30" state="rrrgGGGrr"/>
+        <phase duration="3.80" state="rrrgyygrr"/>
+        <phase duration="4.90" state="rrrgrrgrr"/>
+    </tlLogic>
+	
+    <tlLogic id="cluster_1317288004_1709929511_1709929514_63558180_660058461" type="static" programID="170pm" offset="82">
+        <phase duration="21.50" state="GGGgrrgrr"/>
+        <phase duration="5.20" state="GGygrrgrr"/>
+        <phase duration="3.30" state="GGrgrrgrr"/>
+        <phase duration="84.50" state="GGrgrrgGG"/>
+        <phase duration="5.20" state="yyrgrrgyy"/>
+        <phase duration="3.30" state="rrrgrrgrr"/>
+        <phase duration="38.30" state="rrrgGGGrr"/>
+        <phase duration="3.80" state="rrrgyygrr"/>
+        <phase duration="4.90" state="rrrgrrgrr"/>
+    </tlLogic>
+    <tlLogic id="cluster_1317288004_1709929511_1709929514_63558180_660058461" type="static" programID="170am" offset="91">
+        <phase duration="12.5" state="GGGgrrgrr"/>
+        <phase duration="5.20" state="GGygrrgrr"/>
+        <phase duration="3.30" state="GGrgrrgrr"/>
+        <phase duration="79.5" state="GGrgrrgGG"/>
+        <phase duration="5.20" state="yyrgrrgyy"/>
+        <phase duration="3.30" state="rrrgrrgrr"/>
+        <phase duration="52.3" state="rrrgGGGrr"/>
+        <phase duration="3.80" state="rrrgyygrr"/>
+        <phase duration="4.90" state="rrrgrrgrr"/>
+    </tlLogic>
+	<WAUT startProg="170am" refTime="0" id="rollingWaut">
+		<wautSwitch to="150ampm" time="10800"></wautSwitch>
+		<wautSwitch to="170pm" time="32400"></wautSwitch>
+	</WAUT>
+	<wautJunction junctionID="cluster_1317288004_1709929511_1709929514_63558180_660058461" wautID="rollingWaut"></wautJunction>
+</additional>

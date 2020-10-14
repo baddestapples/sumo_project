@@ -1,0 +1,58 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="cluster_1445912501_1446759518_63641183_660058509" type="static" programID="am" offset="0">
+        <phase duration="9.11" state="grrrgrrGGgrrrgrrGG"/>
+        <phase duration="3.57" state="grrrgrrGGgrrrgrrYY"/>
+        <phase duration="0.73" state="grrrgrrYYgrrrgrrYY"/>
+        <phase duration="2.70" state="grrrgrrYYgrrrgrrrr"/>
+        <phase duration="0.87" state="grrrgGGYYgrrrgrrrr"/>
+        <phase duration="2.70" state="grrrgGGgggrrrgrrrr"/>
+        <phase duration="78" state="grrrgGGgggrrrgGGgg"/>
+        <phase duration="4.30" state="grrrgyyyygrrrgyyyy"/>
+        <phase duration="2.70" state="grrrgrrrrgrrrgrrrr"/>
+        <phase duration="33.36" state="grrrgrrrrgGGGgrrrr"/>
+        <phase duration="4.40" state="grrrgrrrrgGyygrrrr"/>
+        <phase duration="3.40" state="grrrgrrrrgGgggrrrr"/>
+        <phase duration="16.36" state="gGgrgrrrrgGgggrrrr"/>
+        <phase duration="4.40" state="gyyrgrrrrgyyygrrrr"/>
+        <phase duration="3.40" state="grrrgrrrrgrrrgrrrr"/>
+    </tlLogic>
+    <tlLogic id="cluster_1445912501_1446759518_63641183_660058509" type="static" programID="ampm" offset="-11.5">
+        <phase duration="11" state="grrrgrrGGgrrrgrrGG"/>
+		<phase duration="4.30" state="grrrgrrGGgrrrgrrYY"/>
+        <phase duration="2.70" state="grrrgrrGGgrrrgrrrr"/>
+        <phase duration="5" state="grrrgGGGGgrrrgrrrr"/>
+        <phase duration="4.30" state="grrrgGGYYgrrrgrrrr"/>
+        <phase duration="2.70" state="grrrgGGgggrrrgrrrr"/>
+        <phase duration="71" state="grrrgGGgggrrrgGGgg"/>
+        <phase duration="4.30" state="grrrgyyyygrrrgyyyy"/>
+        <phase duration="2.70" state="grrrgrrrrgrrrgrrrr"/>
+        <phase duration="15.20" state="grrrgrrrrgGGGgrrrr"/>
+        <phase duration="4.40" state="grrrgrrrrgGyygrrrr"/>
+        <phase duration="3.40" state="grrrgrrrrgGgggrrrr"/>
+        <phase duration="11.20" state="gGgrgrrrrgGgggrrrr"/>
+        <phase duration="4.40" state="gyyrgrrrrgyyygrrrr"/>
+        <phase duration="3.40" state="grrrgrrrrgrrrgrrrr"/>
+    </tlLogic>
+	    <tlLogic id="cluster_1445912501_1446759518_63641183_660058509" type="static" programID="pm" offset="-28">
+        <phase duration="7.45" state="grrrgrrGGgrrrgrrGG"/>
+        <phase duration="4.30" state="grrrgrrGGgrrrgrrYY"/>
+        <phase duration="2.70" state="grrrgrrGGgrrrgrrrr"/>
+        <phase duration="25.30" state="grrrgGGGGgrrrgrrrr"/>
+        <phase duration="4.30" state="grrrgGGYYgrrrgrrrr"/>
+        <phase duration="2.70" state="grrrgGGgggrrrgrrrr"/>
+        <phase duration="72.90" state="grrrgGGgggrrrgGGgg"/>
+        <phase duration="4.30" state="grrrgyyyygrrrgyyyy"/>
+        <phase duration="2.70" state="grrrgrrrrgrrrgrrrr"/>
+        <phase duration="10.05" state="grrrgrrrrgGGGgrrrr"/>
+        <phase duration="4.40" state="grrrgrrrrgGyygrrrr"/>
+        <phase duration="3.40" state="grrrgrrrrgGgggrrrr"/>
+        <phase duration="17.70" state="gGgrgrrrrgGgggrrrr"/>
+        <phase duration="4.40" state="gyyrgrrrrgyyygrrrr"/>
+        <phase duration="3.40" state="grrrgrrrrgrrrgrrrr"/>
+    </tlLogic>
+	<WAUT startProg="am" refTime="0" id="twinbrookWaut">
+		<wautSwitch to="ampm" time="10800"></wautSwitch>
+		<wautSwitch to="pm" time="32400"></wautSwitch>
+	</WAUT>
+	<wautJunction junctionID="cluster_1445912501_1446759518_63641183_660058509" wautID="twinbrookWaut"></wautJunction>
+</additional>
