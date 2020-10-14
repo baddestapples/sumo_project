@@ -14,4 +14,4 @@ braddock_synchronize.sumocfg is for simulating the synchronized signals.
 ====Calculating traffic characteristics====
 
 Detectors and Actuators were added to capture the traffic characteristics.
-extractFlow.py, extractDistance.py and extractDensity.py were used to extract the statistics for the Average flow rate, Average inter-vehicular distance, and the Vehicular densities respectively.
+extractFlow.py, extractDistance.py and extractDensity.py have been used to extract the statistics for the Average flow rate, Average inter-vehicular distance, and the Vehicular densities respectively.
